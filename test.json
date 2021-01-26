@@ -61,7 +61,7 @@
       "type": "button_cell_view",
       "content": {
         "text": "Забронировать",
-        "typeface": "button1",
+        "typeface": "button2",
         "style": "default",
         "type": "accept",
         "text_color": "critical",
