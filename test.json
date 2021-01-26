@@ -1,0 +1,224 @@
+{
+  "type": "list_card",
+  "cells": [
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Приём у гастроэнтеролога\nВрач Кудрявцева Инна",
+        "typeface": "text1",
+        "text_color": "default",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "1x",
+        "right": "8x"
+      }
+    },
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Medswiss\nМосква, Ермолаевский, 35, метро Маяковская",
+        "typeface": "text1",
+        "text_color": "default",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "1x",
+        "right": "8x"
+      }
+    },
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Основная дата: Пятница, 22 января в 19:00\nДополнительная дата воскресенье 24 января в 13:00",
+        "typeface": "text1",
+        "text_color": "default",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "1x",
+        "right": "8x"
+      }
+    },
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Запись на имя Иван\nНомре телефона 8(916)-***-**-09",
+        "typeface": "text1",
+        "text_color": "secondary",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "1x",
+        "right": "8x"
+      }
+    },
+    {
+      "type": "button_cell_view",
+      "content": {
+        "text": "Забронировать",
+        "typeface": "button1",
+        "style": "default",
+        "type": "accept",
+        "text_color": "critical",
+        "actions": [
+          {
+            "type": "text",
+            "text": "Всё верно"
+          }
+        ],
+        "margins": {
+          "left": "10x",
+          "top": "5x",
+          "right": "10x",
+          "bottom": "5x"
+        }
+      },
+      "paddings": {
+        "left": "6x",
+        "top": "1x",
+        "right": "6x",
+        "bottom": "1x"
+      }
+    },
+    {
+      "type": "button_cell_view",
+      "content": {
+        "text": "Изменить основную дату",
+        "typeface": "button1",
+        "style": "default",
+        "type": "accept",
+        "actions": [
+          {
+            "type": "text",
+            "text": "Изменить основную дату"
+          }
+        ],
+        "margins": {
+          "left": "10x",
+          "top": "5x",
+          "right": "10x",
+          "bottom": "5x"
+        }
+      },
+      "paddings": {
+        "left": "6x",
+        "top": "0x",
+        "right": "6x",
+        "bottom": "0x"
+      }
+    },
+    {
+      "type": "button_cell_view",
+      "content": {
+        "text": "Изменить дополнительную дату",
+        "typeface": "button1",
+        "style": "default",
+        "type": "accept",
+        "actions": [
+          {
+            "type": "text",
+            "text": "Изменить дополнительную дату"
+          }
+        ],
+        "margins": {
+          "left": "10x",
+          "top": "5x",
+          "right": "10x",
+          "bottom": "5x"
+        }
+      },
+      "paddings": {
+        "left": "6x",
+        "top": "0x",
+        "right": "6x",
+        "bottom": "0x"
+      }
+    },
+    {
+      "type": "button_cell_view",
+      "content": {
+        "text": "Изменить имя или фамилию врача",
+        "typeface": "button1",
+        "style": "default",
+        "type": "accept",
+        "actions": [
+          {
+            "type": "text",
+            "text": "Изменить имя мастера"
+          }
+        ],
+        "margins": {
+          "left": "10x",
+          "top": "5x",
+          "right": "10x",
+          "bottom": "5x"
+        }
+      },
+      "paddings": {
+        "left": "6x",
+        "top": "0x",
+        "right": "6x",
+        "bottom": "0x"
+      }
+    },
+    {
+      "type": "button_cell_view",
+      "content": {
+        "text": "Изменить специальность врача",
+        "typeface": "button1",
+        "style": "default",
+        "type": "accept",
+        "actions": [
+          {
+            "type": "text",
+            "text": "Изменить специальность врача"
+          }
+        ],
+        "margins": {
+          "left": "10x",
+          "top": "5x",
+          "right": "10x",
+          "bottom": "5x"
+        }
+      },
+      "paddings": {
+        "left": "6x",
+        "top": "0x",
+        "right": "6x",
+        "bottom": "0x"
+      }
+    },
+    {
+      "type": "button_cell_view",
+      "content": {
+        "text": "Изменить способ оплаты",
+        "typeface": "button1",
+        "style": "default",
+        "type": "accept",
+        "actions": [
+          {
+            "type": "text",
+            "text": "Изменить способ оплаты"
+          }
+        ],
+        "margins": {
+          "left": "10x",
+          "top": "5x",
+          "right": "10x",
+          "bottom": "5x"
+        }
+      },
+      "paddings": {
+        "left": "6x",
+        "top": "0x",
+        "right": "6x",
+        "bottom": "0x"
+      }
+    }
+  ]
+}
