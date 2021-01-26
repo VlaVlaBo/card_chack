@@ -1,191 +1,189 @@
 {
-  "card": {
-    "type": "list_card",
-    "cells": [
-      {
-        "type": "text_cell_view",
-        "content": {
-          "text": "Изменить реквизиты перевода",
-          "typeface": "headline3",
-          "text_color": "default",
-          "max_lines": 2
+  "type": "list_card",
+  "cells": [
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Изменить реквизиты перевода",
+        "typeface": "headline3",
+        "text_color": "default",
+        "max_lines": 2
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "6x",
+        "right": "8x",
+        "bottom": "8x"
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "arrow_right_trace_line"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_white"
         },
-        "paddings": {
-          "left": "8x",
-          "top": "6x",
-          "right": "8x",
+        "title": {
+          "text": "Счет списания",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
           "bottom": "8x"
         }
       },
-      {
-        "type": "left_right_cell_view",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        },
-        "paddings": {
-          "left": "0x",
-          "top": "6x",
-          "right": "0x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "arrow_right_trace_line"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "top": "5x",
-              "right": "6x",
-              "bottom": "5x",
-              "left": "8x"
-            },
-            "tint_color": "solid_white"
-          },
-          "title": {
-            "text": "Счет списания",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 1,
-            "margins": {
-              "top": "9x",
-              "bottom": "9x",
-              "left": "8x"
-            }
-          }
-        },
-        "right": {
-          "type": "disclosure_right_view",
-          "margins": {
-            "top": "8x",
-            "right": "4x",
-            "bottom": "8x"
-          }
-        },
-        "actions": [
-          {
-            "type": "text",
-            "text": "Изменить счет списания"
-          }
-        ]
+      "actions": [
+        {
+          "type": "text",
+          "text": "Изменить счет списания"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
       },
-      {
-        "type": "left_right_cell_view",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        },
-        "paddings": {
-          "left": "0x",
-          "top": "6x",
-          "right": "0x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "arrow_right_trace_line"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "top": "5x",
-              "right": "6x",
-              "bottom": "5x",
-              "left": "8x"
-            },
-            "tint_color": "solid_white"
-          },
-          "title": {
-            "text": "Счет зачисления",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 1,
-            "margins": {
-              "top": "9x",
-              "bottom": "9x",
-              "left": "8x"
-            }
-          }
-        },
-        "right": {
-          "type": "disclosure_right_view",
-          "margins": {
-            "top": "8x",
-            "right": "4x",
-            "bottom": "8x"
-          }
-        },
-        "actions": [
-          {
-            "type": "text",
-            "text": "Изменить счет зачисления"
-          }
-        ]
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
       },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "0x",
-          "top": "6x",
-          "right": "0x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "color_total"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "top": "5x",
-              "right": "6x",
-              "bottom": "5x",
-              "left": "8x"
-            }
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "arrow_right_trace_line"
           },
-          "title": {
-            "text": "Сумма списания",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 1,
-            "margins": {
-              "top": "9x",
-              "bottom": "9x",
-              "left": "8x"
-            }
-          }
-        },
-        "right": {
-          "type": "disclosure_right_view",
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
           "margins": {
-            "top": "8x",
-            "right": "4x",
-            "bottom": "8x"
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_white"
+        },
+        "title": {
+          "text": "Счет зачисления",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Изменить счет зачисления"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "color_total"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
           }
         },
-        "actions": [
-          {
-            "type": "text",
-            "text": "Изменить сумму"
+        "title": {
+          "text": "Сумма списания",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
           }
-        ]
-      }
-    ]
-  }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Изменить сумму"
+        }
+      ]
+    }
+  ]
 }
