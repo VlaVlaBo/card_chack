@@ -60,7 +60,7 @@
     {
       "type": "button_cell_view",
       "content": {
-        "text": "Забронироват",
+        "text": "Забронировать",
         "typeface": "button2",
         "style": "default",
         "type": "accept",
@@ -73,16 +73,16 @@
         ],
         "margins": {
           "left": "10x",
-          "top": "5x",
+          "top": "0x",
           "right": "10x",
-          "bottom": "5x"
+          "bottom": "0x"
         }
       },
       "paddings": {
-        "left": "6x",
-        "top": "1x",
-        "right": "6x",
-        "bottom": "1x"
+        "left": "0x",
+        "top": "2x",
+        "right": "0x",
+        "bottom": "2x"
       }
     },
     {
