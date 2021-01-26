@@ -60,7 +60,7 @@
     {
       "type": "button_cell_view",
       "content": {
-        "text": "Забронировать",
+        "text": "Забронироват",
         "typeface": "button2",
         "style": "default",
         "type": "accept",
