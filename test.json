@@ -123,9 +123,9 @@
       },
       "paddings": {
         "left": "0x",
-        "top": "6x",
+        "top": "5x",
         "right": "0x",
-        "bottom": "8x"
+        "bottom": "5x"
       },
       "left": {
         "type": "simple_left_view",
