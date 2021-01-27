@@ -61,13 +61,13 @@
       "type": "left_right_cell_view",
       "divider": {
         "style": "default",
-        "size": "d5"
+        "size": "d3"
       },
       "paddings": {
         "left": "0x",
-        "top": "6x",
+        "top": "4x",
         "right": "0x",
-        "bottom": "8x"
+        "bottom": "4x"
       },
       "left": {
         "type": "simple_left_view",
@@ -123,9 +123,9 @@
       },
       "paddings": {
         "left": "0x",
-        "top": "5x",
+        "top": "4x",
         "right": "0x",
-        "bottom": "5x"
+        "bottom": "4x"
       },
       "left": {
         "type": "simple_left_view",
