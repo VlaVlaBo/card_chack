@@ -115,7 +115,7 @@
         }
       ]
     },
-    ,{
+    {
       "type": "left_right_cell_view",
       "divider": {
         "style": "default",
