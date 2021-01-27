@@ -77,8 +77,8 @@
             "identificator": "arrow_right_trace_line"
           },
           "size": {
-            "width": "medium",
-            "height": "medium"
+            "width": "small",
+            "height": "small"
           },
           "margins": {
             "top": "5x",
@@ -91,7 +91,7 @@
         "title": {
           "text": "Записаться",
           "typeface": "body1",
-          "text_color": "default",
+          "text_color": "solid_warning",
           "max_lines": 1,
           "margins": {
             "top": "5x",
