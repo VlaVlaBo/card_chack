@@ -152,8 +152,8 @@
           "text_color": "default",
           "max_lines": 1,
           "margins": {
-            "top": "5x",
-            "bottom": "5x",
+            "top": "9x",
+            "bottom": "9x",
             "left": "8x"
           }
         }
