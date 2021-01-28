@@ -77,8 +77,8 @@
             "identificator": "arrow_right_trace_line"
           },
           "size": {
-            "width": "small",
-            "height": "small"
+            "width": "medium",
+            "height": "medium"
           },
           "margins": {
             "top": "0x",
