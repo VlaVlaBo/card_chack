@@ -5,7 +5,7 @@
       "type": "text_cell_view",
       "content": {
         "text": "Приём у гастроэнтеролога\nВрач Кудрявцева Инна",
-        "typeface": "body2",
+        "typeface": "body3",
         "text_color": "default",
         "max_lines": 0
       },
@@ -19,7 +19,7 @@
       "type": "text_cell_view",
       "content": {
         "text": "Medswiss\nМосква, Ермолаевский, 35, метро Маяковская",
-        "typeface": "body2",
+        "typeface": "body3",
         "text_color": "default",
         "max_lines": 0
       },
@@ -32,9 +32,23 @@
     {
       "type": "text_cell_view",
       "content": {
-        "text": "Основная дата: Пятница, 22 января в 19:00\nДополнительная дата воскресенье 24 января в 13:00",
-        "typeface": "body1",
-        "text_color": "default",
+        "text": "Пятница, 22 января в 19:00",
+        "typeface": "body3",
+        "text_color": "inverse",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "3x",
+        "right": "8x"
+      }
+    },
+        {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Воскресенье 24 января в 13:00",
+        "typeface": "body3",
+        "text_color": "tertiary",
         "max_lines": 0
       },
       "paddings": {
@@ -174,7 +188,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "clock"
+            "identificator": "counterclock_wise"
           },
           "size": {
             "width": "medium",
