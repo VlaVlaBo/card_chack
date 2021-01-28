@@ -91,7 +91,7 @@
         "title": {
           "text": "Записаться",
           "typeface": "body1",
-          "text_color": "solid_warning",
+          "text_color": "warning",
           "max_lines": 1,
           "margins": {
             "top": "5x",
