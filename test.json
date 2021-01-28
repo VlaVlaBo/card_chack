@@ -94,8 +94,8 @@
           "text_color": "warning",
           "max_lines": 1,
           "margins": {
-            "top": "2x",
-            "bottom": "2x",
+            "top": "4x",
+            "bottom": "4x",
             "left": "8x"
           }
         }
