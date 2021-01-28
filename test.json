@@ -65,9 +65,9 @@
       },
       "paddings": {
         "left": "0x",
-        "top": "2x",
+        "top": "1x",
         "right": "0x",
-        "bottom": "2x"
+        "bottom": "1x"
       },
       "left": {
         "type": "simple_left_view",
@@ -115,9 +115,9 @@
       },
       "paddings": {
         "left": "0x",
-        "top": "4x",
+        "top": "1x",
         "right": "0x",
-        "bottom": "4x"
+        "bottom": "1x"
       },
       "left": {
         "type": "simple_left_view",
@@ -131,9 +131,9 @@
             "height": "medium"
           },
           "margins": {
-            "top": "5x",
+            "top": "1x",
             "right": "6x",
-            "bottom": "5x",
+            "bottom": "1x",
             "left": "8x"
           },
           "tint_color": "solid_white"
@@ -144,18 +144,10 @@
           "text_color": "default",
           "max_lines": 1,
           "margins": {
-            "top": "5x",
-            "bottom": "5x",
+            "top": "4x",
+            "bottom": "4x",
             "left": "8x"
           }
-        }
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "5x",
-          "right": "4x",
-          "bottom": "5x"
         }
       },
       "actions": [
@@ -173,9 +165,9 @@
       },
       "paddings": {
         "left": "0x",
-        "top": "4x",
+        "top": "1x",
         "right": "0x",
-        "bottom": "4x"
+        "bottom": "1x"
       },
       "left": {
         "type": "simple_left_view",
@@ -189,9 +181,9 @@
             "height": "medium"
           },
           "margins": {
-            "top": "5x",
+            "top": "1x",
             "right": "6x",
-            "bottom": "5x",
+            "bottom": "1x",
             "left": "8x"
           },
           "tint_color": "solid_white"
@@ -202,18 +194,10 @@
           "text_color": "default",
           "max_lines": 1,
           "margins": {
-            "top": "5x",
-            "bottom": "5x",
+            "top": "4x",
+            "bottom": "4x",
             "left": "8x"
           }
-        }
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "5x",
-          "right": "4x",
-          "bottom": "5x"
         }
       },
       "actions": [
