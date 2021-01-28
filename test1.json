@@ -65,9 +65,9 @@
       },
       "paddings": {
         "left": "0x",
-        "top": "4x",
+        "top": "2x",
         "right": "0x",
-        "bottom": "4x"
+        "bottom": "2x"
       },
       "left": {
         "type": "simple_left_view",
@@ -77,13 +77,13 @@
             "identificator": "arrow_right_trace_line"
           },
           "size": {
-            "width": "small",
-            "height": "small"
+            "width": "medium",
+            "height": "medium"
           },
           "margins": {
-            "top": "5x",
+            "top": "2x",
             "right": "6x",
-            "bottom": "5x",
+            "bottom": "2x",
             "left": "8x"
           },
           "tint_color": "solid_warning"
@@ -94,8 +94,8 @@
           "text_color": "warning",
           "max_lines": 1,
           "margins": {
-            "top": "5x",
-            "bottom": "5x",
+            "top": "2x",
+            "bottom": "2x",
             "left": "8x"
           }
         }
@@ -103,9 +103,9 @@
       "right": {
         "type": "disclosure_right_view",
         "margins": {
-          "top": "5x",
+          "top": "2x",
           "right": "4x",
-          "bottom": "5x"
+          "bottom": "2x"
         }
       },
       "actions": [
