@@ -65,9 +65,9 @@
       },
       "paddings": {
         "left": "0x",
-        "top": "0x",
+        "top": "2x",
         "right": "0x",
-        "bottom": "0x"
+        "bottom": "2x"
       },
       "left": {
         "type": "simple_left_view",
@@ -94,8 +94,8 @@
           "text_color": "warning",
           "max_lines": 1,
           "margins": {
-            "top": "0x",
-            "bottom": "0x",
+            "top": "2x",
+            "bottom": "2x",
             "left": "8x"
           }
         }
