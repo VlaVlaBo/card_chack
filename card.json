@@ -19,7 +19,7 @@
       "type": "text_cell_view",
       "content": {
         "text": "Medswiss\nМосква, Ермолаевский, 35, метро Маяковская",
-        "typeface": "body3",
+        "typeface": "text1",
         "text_color": "default",
         "max_lines": 0
       },
@@ -33,7 +33,7 @@
       "type": "text_cell_view",
       "content": {
         "text": "Основная дата\nПятница, 22 января в 19:00",
-        "typeface": "body3",
+        "typeface": "text1",
         "text_color": "inverse",
         "max_lines": 0
       },
@@ -47,7 +47,7 @@
       "type": "text_cell_view",
       "content": {
         "text": "Дополнительная дата\nВоскресенье 24 января в 13:00",
-        "typeface": "body3",
+        "typeface": "text1",
         "text_color": "tertiary",
         "max_lines": 0
       },
@@ -96,7 +96,7 @@
           },
           "margins": {
             "top": "1x",
-            "right": "4x",
+            "right": "3x",
             "bottom": "1x",
             "left": "8x"
           },
@@ -110,7 +110,7 @@
           "margins": {
             "top": "4x",
             "bottom": "4x",
-            "left": "4x"
+            "left": "3x"
           }
         }
       },
@@ -146,7 +146,7 @@
           },
           "margins": {
             "top": "1x",
-            "right": "6x",
+            "right": "3x",
             "bottom": "1x",
             "left": "8x"
           },
@@ -160,7 +160,7 @@
           "margins": {
             "top": "4x",
             "bottom": "4x",
-            "left": "4x"
+            "left": "3x"
           }
         }
       },
