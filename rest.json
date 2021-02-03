@@ -259,16 +259,6 @@
     },
     {
       "type": "left_right_cell_view",
-      "divider": {
-        "style": "default",
-        "size": "d3"
-      },
-      "paddings": {
-        "left": "0x",
-        "top": "1x",
-        "right": "0x",
-        "bottom": "1x"
-      },
       "left": {
         "type": "simple_left_view",
         "icon": {
