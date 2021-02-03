@@ -338,7 +338,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "document"
+            "identificator": "circle_cross"
           },
           "size": {
             "width": "medium",
