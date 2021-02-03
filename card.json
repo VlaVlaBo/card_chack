@@ -108,8 +108,8 @@
           "text_color": "warning",
           "max_lines": 1,
           "margins": {
-            "top": "8x",
-            "bottom": "8x",
+            "top": "6x",
+            "bottom": "6x",
             "left": "8x"
           }
         }
@@ -158,8 +158,8 @@
           "text_color": "default",
           "max_lines": 1,
           "margins": {
-            "top": "4x",
-            "bottom": "4x",
+            "top": "6x",
+            "bottom": "6x",
             "left": "8x"
           }
         }
