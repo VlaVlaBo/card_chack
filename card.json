@@ -108,8 +108,8 @@
           "text_color": "warning",
           "max_lines": 1,
           "margins": {
-            "top": "4x",
-            "bottom": "4x",
+            "top": "8x",
+            "bottom": "8x",
             "left": "8x"
           }
         }
