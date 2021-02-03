@@ -45,6 +45,16 @@
     },
     {
       "type": "text_cell_view",
+            "divider": {
+        "style": "default",
+        "size": "d3"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "1x",
+        "right": "0x",
+        "bottom": "1x"
+      },
       "content": {
         "text": "Бронь на имя: Иван\nНомре телефона 8(916)-***-**-09\nНапомнить за 1 час",
         "typeface": "text1",
