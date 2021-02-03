@@ -74,7 +74,7 @@
         {
       "type": "text_cell_view",
       "content": {
-        "text": "Напомнить пуш-уведомлением за 1 час",
+        "text": "Напомнить за 1 час",
         "typeface": "text1",
         "text_color": "secondary",
         "max_lines": 0
@@ -109,9 +109,9 @@
             "height": "medium"
           },
           "margins": {
-            "top": "2x",
+            "top": "1x",
             "right": "6x",
-            "bottom": "2x",
+            "bottom": "1x",
             "left": "8x"
           },
           "tint_color": "solid_warning"
