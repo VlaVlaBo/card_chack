@@ -32,7 +32,7 @@
     {
       "type": "text_cell_view",
       "content": {
-        "text": "Пятница, 22 января в 19:00",
+        "text": "Основная дата\nПятница, 22 января в 19:00",
         "typeface": "body3",
         "text_color": "inverse",
         "max_lines": 0
@@ -46,7 +46,7 @@
         {
       "type": "text_cell_view",
       "content": {
-        "text": "Воскресенье 24 января в 13:00",
+        "text": "Дополнительная дата\nВоскресенье 24 января в 13:00",
         "typeface": "body3",
         "text_color": "tertiary",
         "max_lines": 0
@@ -71,6 +71,20 @@
         "right": "8x"
       }
     },
+        {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Напомнить пуш-уведомлением за 1 час",
+        "typeface": "text1",
+        "text_color": "secondary",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "1x",
+        "right": "8x"
+      }
+    },
     {
       "type": "left_right_cell_view",
       "divider": {
@@ -79,9 +93,9 @@
       },
       "paddings": {
         "left": "0x",
-        "top": "2x",
+        "top": "1x",
         "right": "0x",
-        "bottom": "2x"
+        "bottom": "1x"
       },
       "left": {
         "type": "simple_left_view",
@@ -108,8 +122,8 @@
           "text_color": "warning",
           "max_lines": 1,
           "margins": {
-            "top": "6x",
-            "bottom": "6x",
+            "top": "4x",
+            "bottom": "4x",
             "left": "8x"
           }
         }
