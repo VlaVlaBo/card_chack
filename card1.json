@@ -60,21 +60,7 @@
     {
       "type": "text_cell_view",
       "content": {
-        "text": "Запись на имя Иван\nНомре телефона 8(916)-***-**-09",
-        "typeface": "text1",
-        "text_color": "secondary",
-        "max_lines": 0
-      },
-      "paddings": {
-        "left": "8x",
-        "top": "1x",
-        "right": "8x"
-      }
-    },
-        {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Напомнить за 1 час",
+        "text": "Запись на имя Иван\nНомре телефона 8(916)-***-**-09\nНапомнить за 1 час",
         "typeface": "text1",
         "text_color": "secondary",
         "max_lines": 0
@@ -110,7 +96,7 @@
           },
           "margins": {
             "top": "1x",
-            "right": "6x",
+            "right": "4x",
             "bottom": "1x",
             "left": "8x"
           },
