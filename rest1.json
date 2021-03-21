@@ -116,7 +116,7 @@
           },
           "address": {
             "type": "local",
-            "identificator": "clock"
+            "identificator": "building"
           },
           "margins": {
             "top": "1x",
