@@ -3,10 +3,16 @@
         "items": [
             {
                 "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
                 "bottom_text": {
                     "type": "text_cell_view",
-                    "text": "Какая высота Эвереста?",
-                    "typeface": "headline3",
+                    "text": "Бронируй, изменяй, отменяй записи через ассистента ?",
+                    "typeface": "body3",
                     "text_color": "default",
                     "max_lines": 3,
                     "margins": {
@@ -21,11 +27,12 @@
                 },
                 "actions": [
                     {
-                        "text": "Как работает навык Дуэт"
+                        "text": "Как работает Дуэт"
                     }
                 ]
             }
+          
         ],
-        "columns": 1,
+        "columns": 2,
         "item_width": "small"
 }
