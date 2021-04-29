@@ -4,6 +4,35 @@
       {
         "type": "greeting_grid_item",
         "top_text": {
+          "text": "хуедник",
+          "typeface": "caption",
+          "text_color": "default"
+        },
+        "bottom_text": {
+          "text": "какая херня",
+          "typeface": "body3",
+          "text_color": "default",
+          "max_lines": 3,
+          "margins": {
+            "top": "4x"
+          }
+        },
+        "paddings": {
+          "top": "6x",
+          "left": "6x",
+          "right": "6x",
+          "bottom": "6x"
+        },
+        "actions": [
+          {
+            "type": "text",
+            "text": "Какая хрень?"
+          }
+        ]
+      },
+      {
+        "type": "greeting_grid_item",
+        "top_text": {
           "text": "СОБЕСЕДНИК",
           "typeface": "caption",
           "text_color": "default"
