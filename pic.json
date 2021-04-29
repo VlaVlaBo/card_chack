@@ -38,7 +38,7 @@
               "text_color": "secondary"
             },
             "bottom_text": {
-              "text": "Записаться в парикмахерскую, салон красоты или барбершоп",
+              "text": "Записаться в салон красоты или барбершоп",
               "typeface": "headline3",
               "text_color": "default",
               "max_lines": 3,
