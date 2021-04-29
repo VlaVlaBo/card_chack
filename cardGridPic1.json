@@ -1,0 +1,146 @@
+{
+  "items": [
+    {
+      "type": "list_card",
+      "cells": [
+        {
+          "type": "text_cell_view",
+          "content": {
+            "text": "Запись в «Borodach»\nЛенина, 26а\nМастер: Евгения",
+            "typeface": "body3",
+            "max_lines": 0,
+            "text_color": "default"
+          },
+          "paddings": {
+            "top": "1x",
+            "left": "8x",
+            "right": "8x"
+          }
+        }
+      ]
+    },
+    {
+      "type": "grid_card",
+      "items": [
+        {
+          "type": "greeting_grid_item",
+          "top_text": {
+            "text": "СОБЕСЕДНИК",
+            "typeface": "caption",
+            "text_color": "default"
+          },
+          "bottom_text": {
+            "text": "Какая высота Эвереста?",
+            "typeface": "body3",
+            "text_color": "default",
+            "max_lines": 3,
+            "margins": {
+              "top": "4x"
+            }
+          },
+          "paddings": {
+            "top": "6x",
+            "left": "6x",
+            "right": "6x",
+            "bottom": "6x"
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": "Какая высота Эвереста?"
+            }
+          ]
+        },
+        {
+          "type": "greeting_grid_item",
+          "top_text": {
+            "text": "КОШЕЛЕК",
+            "typeface": "caption",
+            "text_color": "default"
+          },
+          "bottom_text": {
+            "text": "Сколько у меня денег?",
+            "typeface": "body3",
+            "text_color": "default",
+            "max_lines": 3,
+            "margins": {
+              "top": "4x"
+            }
+          },
+          "paddings": {
+            "top": "6x",
+            "left": "6x",
+            "right": "6x",
+            "bottom": "6x"
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": "Сколько у меня денег?"
+            }
+          ]
+        },
+        {
+          "type": "greeting_grid_item",
+          "top_text": {
+            "text": "ПОГОДА",
+            "typeface": "caption",
+            "text_color": "default"
+          },
+          "bottom_text": {
+            "text": "Какая погода вечером в Москве?",
+            "typeface": "body3",
+            "text_color": "default",
+            "max_lines": 3,
+            "margins": {
+              "top": "4x"
+            }
+          },
+          "paddings": {
+            "top": "6x",
+            "left": "6x",
+            "right": "6x",
+            "bottom": "6x"
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": "Какая погода вечером в Москве?"
+            }
+          ]
+        },
+        {
+          "type": "greeting_grid_item",
+          "top_text": {
+            "text": "ПЕРЕВОД",
+            "typeface": "caption",
+            "text_color": "default"
+          },
+          "bottom_text": {
+            "text": "Отправь маме 500 рублей",
+            "typeface": "body3",
+            "text_color": "default",
+            "max_lines": 3,
+            "margins": {
+              "top": "4x"
+            }
+          },
+          "paddings": {
+            "top": "6x",
+            "left": "6x",
+            "right": "6x",
+            "bottom": "6x"
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": "Отправь маме 500 рублей"
+            }
+          ]
+        }
+      ],
+      "columns": 2,
+      "item_width": "small"
+    }
+  ]
+}
