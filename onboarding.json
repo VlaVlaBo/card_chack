@@ -33,6 +33,6 @@
             }
           
         ],
-        "columns": 2,
-        "item_width": "resizable"
+        "columns": 1,
+        "item_width": "medium"
 }
