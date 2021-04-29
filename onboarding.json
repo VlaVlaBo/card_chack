@@ -34,5 +34,5 @@
           
         ],
         "columns": 2,
-        "item_width": "small"
+        "item_width": "resizable"
 }
