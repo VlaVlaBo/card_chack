@@ -1,35 +1,21 @@
 {
+
     "type": "grid_card",
     "items": [
-      {
-        "type": "greeting_grid_item",
-        "top_text": {
-          "text": "хуедник",
-          "typeface": "caption",
-          "text_color": "default"
-        },
-        "bottom_text": {
-          "text": "какая херня",
-          "typeface": "body3",
-          "text_color": "default",
-          "max_lines": 3,
-          "margins": {
-            "top": "4x"
-          }
-        },
-        "paddings": {
-          "top": "6x",
-          "left": "6x",
-          "right": "6x",
-          "bottom": "6x"
-        },
-        "actions": [
           {
-            "type": "text",
-            "text": "Какая хрень?"
-          }
-        ]
+      "type": "text_cell_view",
+      "content": {
+        "text": "Запись в «Borodach»\nЛенина, 26а\nМастер: Евгения",
+        "typeface": "body3",
+        "max_lines": 0,
+        "text_color": "default"
       },
+      "paddings": {
+        "top": "1x",
+        "left": "8x",
+        "right": "8x"
+      }
+    },
       {
         "type": "greeting_grid_item",
         "top_text": {
