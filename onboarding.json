@@ -5,13 +5,13 @@
                 "type": "greeting_grid_item",
                 "top_text": {
                     "type": "text_cell_view",
-                    "text": "",
+                    "text": "Как работает сервис Дуэт",
                     "typeface": "caption",
                     "text_color": "default"
                 },
                 "bottom_text": {
                     "type": "text_cell_view",
-                    "text": "Бронируй, изменяй, отменяй записи через ассистента ?",
+                    "text": "Бронируй, изменяй, отменяй записи через ассистента",
                     "typeface": "body3",
                     "text_color": "default",
                     "max_lines": 3,
