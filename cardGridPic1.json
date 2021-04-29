@@ -1,5 +1,4 @@
 {
-  "card": {
     "type": "grid_card",
     "items": [
       {
@@ -122,4 +121,3 @@
     "columns": 2,
     "item_width": "small"
   }
-}
