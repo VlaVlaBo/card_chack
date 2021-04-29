@@ -91,13 +91,13 @@
           {
             "type": "greeting_grid_item",
             "top_text": {
-              "text": "ПЕРЕВОД",
+              "text": "Нет активных записей",
               "typeface": "caption",
-              "text_color": "default"
+              "text_color": "secondary"
             },
             "bottom_text": {
-              "text": "Отправь маме 500 рублей",
-              "typeface": "body3",
+              "text": "Мои записи",
+              "typeface": "headline3",
               "text_color": "default",
               "max_lines": 3,
               "margins": {
@@ -113,7 +113,7 @@
             "actions": [
               {
                 "type": "text",
-                "text": "Отправь маме 500 рублей"
+                "text": "Что с моей записью?"
               }
             ]
           }
