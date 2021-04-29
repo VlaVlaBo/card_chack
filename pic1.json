@@ -10,7 +10,7 @@
             },
             "bottom_text": {
               "text": "Забронировать столик",
-              "typeface": "headline3",
+              "typeface": "headline4",
               "text_color": "default",
               "max_lines": 3,
               "margins": {
@@ -68,7 +68,7 @@
             },
             "bottom_text": {
               "text": "Записаться на приём к врачу",
-              "typeface": "body3",
+              "typeface": "headline3",
               "text_color": "default",
               "max_lines": 3,
               "margins": {
