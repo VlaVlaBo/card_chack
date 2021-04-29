@@ -1,0 +1,123 @@
+{
+        "type": "grid_card",
+        "items": [
+          {
+            "type": "greeting_grid_item",
+            "top_text": {
+              "text": "Рестораны, бары, кафе",
+              "typeface": "caption",
+              "text_color": "secondary"
+            },
+            "bottom_text": {
+              "text": "Забронировать столик",
+              "typeface": "headline3",
+              "text_color": "default",
+              "max_lines": 3,
+              "margins": {
+                "top": "4x"
+              }
+            },
+            "paddings": {
+              "top": "6x",
+              "left": "6x",
+              "right": "6x",
+              "bottom": "6x"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Забронировать столик"
+              }
+            ]
+          },
+          {
+            "type": "greeting_grid_item",
+            "top_text": {
+              "text": "Уход за собой",
+              "typeface": "caption",
+              "text_color": "secondary"
+            },
+            "bottom_text": {
+              "text": "Записаться в парикмахерскую, салон красоты или барбершоп",
+              "typeface": "headline3",
+              "text_color": "default",
+              "max_lines": 3,
+              "margins": {
+                "top": "4x"
+              }
+            },
+            "paddings": {
+              "top": "6x",
+              "left": "6x",
+              "right": "6x",
+              "bottom": "6x"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Записаться в салон красоты"
+              }
+            ]
+          },
+          {
+            "type": "greeting_grid_item",
+            "top_text": {
+              "text": "Здоровье",
+              "typeface": "caption",
+              "text_color": "secondary"
+            },
+            "bottom_text": {
+              "text": "Записаться на приём к врачу",
+              "typeface": "body3",
+              "text_color": "default",
+              "max_lines": 3,
+              "margins": {
+                "top": "4x"
+              }
+            },
+            "paddings": {
+              "top": "6x",
+              "left": "6x",
+              "right": "6x",
+              "bottom": "6x"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Записаться на прием к врачу"
+              }
+            ]
+          },
+          {
+            "type": "greeting_grid_item",
+            "top_text": {
+              "text": "Нет активных записей",
+              "typeface": "caption",
+              "text_color": "secondary"
+            },
+            "bottom_text": {
+              "text": "Мои записи",
+              "typeface": "headline3",
+              "text_color": "default",
+              "max_lines": 3,
+              "margins": {
+                "top": "4x"
+              }
+            },
+            "paddings": {
+              "top": "6x",
+              "left": "6x",
+              "right": "6x",
+              "bottom": "6x"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Что с моей записью?"
+              }
+            ]
+          }
+        ],
+        "columns": 2,
+        "item_width": "small"
+      }

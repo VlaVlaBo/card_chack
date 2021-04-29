@@ -1,0 +1,415 @@
+{
+  "type": "list_card",
+  "cells": [
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Запись в «BAFIK Nails»\nк любому свободному мастеру\nМосква, Новотушенский проезд, 6 к1\nметро Волоколамская",
+        "typeface": "body3",
+        "text_color": "default",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "1x",
+        "right": "8x"
+      }
+    },
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Комбинированный маникюр, покрытие гель-лак, снятие\nКомбинированный педикюр, покрытие гель-лак, снятие",
+        "typeface": "text1",
+        "text_color": "default",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "3x",
+        "right": "8x"
+      }
+    },
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Основная дата\nПятница, 22 января в 19:00",
+        "typeface": "text1",
+        "text_color": "inverse",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "3x",
+        "right": "8x"
+      }
+    },
+        {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Дополнительная дата\nВоскресенье 24 января в 13:00",
+        "typeface": "text1",
+        "text_color": "tertiary",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "3x",
+        "right": "8x"
+      }
+    },
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Запись на имя Иван\nНомре телефона 8(916)-***-**-09\nНапомнить за 1 час",
+        "typeface": "text1",
+        "text_color": "secondary",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "1x",
+        "right": "8x"
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "1x",
+        "right": "0x",
+        "bottom": "1x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "arrow_right_trace_line"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "1x",
+            "right": "3x",
+            "bottom": "1x",
+            "left": "8x"
+          },
+          "tint_color": "solid_warning"
+        },
+        "title": {
+          "text": "Записаться",
+          "typeface": "body1",
+          "text_color": "warning",
+          "max_lines": 1,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "3x"
+          }
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Всё верно"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "1x",
+        "right": "0x",
+        "bottom": "1x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "clock"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "1x",
+            "right": "3x",
+            "bottom": "1x",
+            "left": "8x"
+          },
+          "tint_color": "solid_white"
+        },
+        "title": {
+          "text": "Изменить основную дату",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "3x"
+          }
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Изменить основную дату и время"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "1x",
+        "right": "0x",
+        "bottom": "1x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "counterclock_wise"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "1x",
+            "right": "3x",
+            "bottom": "1x",
+            "left": "8x"
+          },
+          "tint_color": "solid_white"
+        },
+        "title": {
+          "text": "Изменить дополнительную дату",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "3x"
+          }
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Изменить дополнительную дату"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "1x",
+        "right": "0x",
+        "bottom": "1x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "passport"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "1x",
+            "right": "3x",
+            "bottom": "1x",
+            "left": "8x"
+          },
+          "tint_color": "solid_white"
+        },
+        "title": {
+          "text": "Изменить имя мастера",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "3x"
+          }
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Изменить имя мастера"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "1x",
+        "right": "0x",
+        "bottom": "1x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "document_checkmark"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "1x",
+            "right": "3x",
+            "bottom": "1x",
+            "left": "8x"
+          },
+          "tint_color": "solid_white"
+        },
+        "title": {
+          "text": "Добавить услугу",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "3x"
+          }
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Добавить услугу"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "1x",
+        "right": "0x",
+        "bottom": "1x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "circle_cross"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "1x",
+            "right": "3x",
+            "bottom": "1x",
+            "left": "8x"
+          },
+          "tint_color": "solid_white"
+        },
+        "title": {
+          "text": "Удалить услугу",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "3x"
+          }
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Удалить услугу"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "bell"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "1x",
+            "right": "3x",
+            "bottom": "1x",
+            "left": "8x"
+          },
+          "tint_color": "solid_white"
+        },
+        "title": {
+          "text": "Изменить напоминание",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "3x"
+          }
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Изменить напоминание"
+        }
+      ]
+    }
+  ]
+}

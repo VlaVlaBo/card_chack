@@ -1,0 +1,301 @@
+{
+  "type": "list_card",
+  "cells": [
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Бронирую «СВОИ»\nОвчинниковская набережная 6 стр1\nметро Новокузнецкая",
+        "typeface": "body3",
+        "text_color": "default",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "1x",
+        "right": "8x"
+      }
+    },
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Пятница, 22 января в 19:00",
+        "typeface": "text1",
+        "text_color": "inverse",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "3x",
+        "right": "8x"
+      }
+    },
+        {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Столик на двохи\nПожелание: столик у окна\nНеобязательное пожелание",
+        "typeface": "text1",
+        "text_color": "tertiary",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "3x",
+        "right": "8x"
+      }
+    },
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Бронь на имя: Иван\nНомре телефона 8(916)-***-**-09\nНапомнить за 1 час",
+        "typeface": "text1",
+        "text_color": "secondary",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "1x",
+        "right": "8x"
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "1x",
+        "right": "0x",
+        "bottom": "1x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "arrow_right_trace_line"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "1x",
+            "right": "3x",
+            "bottom": "1x",
+            "left": "8x"
+          },
+          "tint_color": "solid_warning"
+        },
+        "title": {
+          "text": "Забронировать",
+          "typeface": "body1",
+          "text_color": "warning",
+          "max_lines": 1,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "3x"
+          }
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Всё верно"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "1x",
+        "right": "0x",
+        "bottom": "1x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "clock"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "1x",
+            "right": "3x",
+            "bottom": "1x",
+            "left": "8x"
+          },
+          "tint_color": "solid_white"
+        },
+        "title": {
+          "text": "Изменить дату и время",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "3x"
+          }
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Изменить основную дату и время"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "1x",
+        "right": "0x",
+        "bottom": "1x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "user"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "1x",
+            "right": "3x",
+            "bottom": "1x",
+            "left": "8x"
+          },
+          "tint_color": "solid_white"
+        },
+        "title": {
+          "text": "Изменить количество персон",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "3x"
+          }
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Изменить количество персон"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "1x",
+        "right": "0x",
+        "bottom": "1x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "star_light"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "1x",
+            "right": "3x",
+            "bottom": "1x",
+            "left": "8x"
+          },
+          "tint_color": "solid_white"
+        },
+        "title": {
+          "text": "Добавить пожелание",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "3x"
+          }
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Добавить пожелание"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "bell"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "1x",
+            "right": "3x",
+            "bottom": "1x",
+            "left": "8x"
+          },
+          "tint_color": "solid_white"
+        },
+        "title": {
+          "text": "Изменить напоминание",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "3x"
+          }
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Изменить напоминание"
+        }
+      ]
+    }
+  ]
+}
