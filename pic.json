@@ -119,5 +119,5 @@
           }
         ],
         "columns": 2,
-        "item_width": "resizable"
+        "item_width": "small"
       }
