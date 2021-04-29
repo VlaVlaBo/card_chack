@@ -1,0 +1,200 @@
+{
+  "applicationId": "fe0f6b1d-7525-427b-937d-48b7caeb82db",
+  "appversionId": "a52d09ea-b781-4378-b37e-d422da8b58dc",
+  "projectName": "DuplexApp",
+  "intent": "book_doctor",
+  "original_intent": "axon",
+  "intent_meta": {},
+  "message": {
+    "original_text": "Полис ДМС",
+    "normalized_text": "полис дмс .",
+    "tokenized_elements_list": [
+      {
+        "text": "Полис",
+        "raw_text": "Полис",
+        "grammem_info": {
+          "animacy": "inan",
+          "case": "nom",
+          "gender": "masc",
+          "number": "sing",
+          "raw_gram_info": "animacy=inan|case=nom|gender=masc|number=sing",
+          "part_of_speech": "NOUN"
+        },
+        "lemma": "полис",
+        "is_stop_word": false,
+        "list_of_dependents": [
+          2
+        ],
+        "dependency_type": "root",
+        "head": 0
+      },
+      {
+        "text": "ДМС",
+        "raw_text": "ДМС",
+        "grammem_info": {
+          "case": "gen",
+          "gender": "masc",
+          "number": "sing",
+          "raw_gram_info": "case=gen|gender=masc|number=sing",
+          "part_of_speech": "NOUN"
+        },
+        "lemma": "дмс",
+        "is_stop_word": false,
+        "list_of_dependents": [],
+        "dependency_type": "appos",
+        "head": 1
+      },
+      {
+        "raw_text": ".",
+        "text": ".",
+        "lemma": ".",
+        "token_type": "SENTENCE_ENDPOINT_TOKEN",
+        "token_value": {
+          "value": "."
+        },
+        "list_of_token_types_data": [
+          {
+            "token_type": "SENTENCE_ENDPOINT_TOKEN",
+            "token_value": {
+              "value": "."
+            }
+          }
+        ]
+      }
+    ],
+    "entities": {},
+    "original_message_name": "MESSAGE_FROM_USER",
+    "human_normalized_text": "полис дмс",
+    "asr_normalized_message": null,
+    "human_normalized_text_with_anaphora": "полис дмс"
+  },
+  "device": {
+    "platformType": "IOS",
+    "platformVersion": "14.3",
+    "surface": "DEMO",
+    "surfaceVersion": "20.8.4000",
+    "features": {
+      "appTypes": [
+        "DIALOG"
+      ]
+    },
+    "capabilities": {
+      "screen": {
+        "available": true,
+        "height": 2688,
+        "scale_factor": 3,
+        "width": 1242
+      }
+    },
+    "deviceId": "",
+    "deviceManufacturer": "Apple",
+    "deviceModel": "iPhone12,5",
+    "additionalInfo": {
+      "host_app_id": "ru.sberbank.sberdevices.assistant.demo.beta",
+      "sdk_version": "20.8.4000"
+    }
+  },
+  "app_info": {
+    "projectId": "0de0ddcc-66af-4859-b0f7-77e034271a75",
+    "applicationId": "fe0f6b1d-7525-427b-937d-48b7caeb82db",
+    "appversionId": "a52d09ea-b781-4378-b37e-d422da8b58dc",
+    "systemName": "duplex_app",
+    "frontendEndpoint": "https://text-api-test.activebc.ru:30313/api-sbrf",
+    "frontendType": "DIALOG"
+  },
+  "annotations": {
+    "censor_data": {
+      "classes": [
+        "politicians",
+        "obscene",
+        "model_response"
+      ],
+      "probas": [
+        0,
+        0,
+        0.012501656077802181
+      ]
+    },
+    "text_sentiment": {
+      "classes": [
+        "negative",
+        "positive",
+        "neutral"
+      ],
+      "probas": [
+        7.6227797762840055E-6,
+        4.073118578529211E-12,
+        0.9999923706054688
+      ]
+    },
+    "asr_sentiment": {
+      "classes": [],
+      "probas": []
+    }
+  },
+  "smartBio": {},
+  "new_session": false,
+  "strategies": {
+    "happy_birthday": false,
+    "last_call": null
+  },
+  "meta": {
+    "mobile_sdk_data": "",
+    "permissions": [
+      {
+        "status": "granted",
+        "type": "record_audio"
+      },
+      {
+        "type": "read_contacts",
+        "status": "denied_permanently"
+      },
+      {
+        "type": "geo",
+        "status": "granted"
+      },
+      {
+        "type": "push",
+        "status": "denied_once"
+      }
+    ],
+    "location": {
+      "accuracy": 65,
+      "timestamp": 1612347934326,
+      "lat": 55.84125923372534,
+      "lon": 37.343979783516545
+    }
+  },
+  "selected_item": {},
+  "client_profile": {
+    "name": "Ксения",
+    "patronymic": "Раппопортовна",
+    "surname": "Собчак",
+    "gender": 2,
+    "birthDate": "16.04.1978",
+    "electronicAddresses": [
+      {
+        "contactStatus": 1,
+        "electronicAddress": "example@google.ru",
+        "noElectronicAddress": false
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "contactStatus": 1,
+        "phoneNumber": "82220001122",
+        "noPhone": false,
+        "mobileOperator": "ttt",
+        "flags": []
+      }
+    ]
+  },
+  "character": {
+    "id": "sber",
+    "name": "Сбер",
+    "gender": "male",
+    "appeal": "official"
+  },
+  "inner_entities": {}
+}, "uuid": {"userId": "599EA99C-4C37-4198-98ED-77CF755EAE49", "sub": "LpM5ROX1MdvyVks2gGeuYc60S9UBNbPCWrApGn25xwDfrWsNxKG9f3OkAO/+3rQ9V7zbdqCKip4FWIZ66yLtNFHBe/xDuBb1hSZColUD6hRS8+KDW3UNDi7dlmpDKaVwukBPed+wloAPaqZ2v+pcSA==", "userChannel": "FEBRUARY"
+}

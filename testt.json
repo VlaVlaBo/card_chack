@@ -1,0 +1,441 @@
+{
+  "messageId": 1612943977259,
+  "sessionId": "d90eaa0b-536d-41bf-bd99-5c4a4f883883",
+  "messageName": "MESSAGE_TO_SKILL",
+  "payload": {
+    "applicationId": "fe0f6b1d-7525-427b-937d-48b7caeb82db",
+    "appversionId": "a52d09ea-b781-4378-b37e-d422da8b58dc",
+    "projectName": "Дуэт",
+    "intent": "run_app",
+    "original_intent": "run_app",
+    "intent_meta": {},
+    "message": {
+      "original_text": "запиши меня на коррекцию бровей",
+      "normalized_text": "записать я на коррекция бровь .",
+      "tokenized_elements_list": [
+        {
+          "text": "запиши",
+          "raw_text": "запиши",
+          "grammem_info": {
+            "aspect": "perf",
+            "mood": "imp",
+            "number": "sing",
+            "person": "2",
+            "transitivity": "tran",
+            "verbform": "fin",
+            "voice": "act",
+            "raw_gram_info": "aspect=perf|mood=imp|number=sing|person=2|transitivity=tran|verbform=fin|voice=act",
+            "part_of_speech": "VERB"
+          },
+          "lemma": "записать",
+          "is_stop_word": false,
+          "list_of_dependents": [
+            2,
+            4
+          ],
+          "dependency_type": "acl",
+          "head": 5
+        },
+        {
+          "text": "меня",
+          "raw_text": "меня",
+          "grammem_info": {
+            "case": "acc",
+            "number": "sing",
+            "person": "1",
+            "raw_gram_info": "case=acc|number=sing|person=1",
+            "part_of_speech": "PRON"
+          },
+          "lemma": "я",
+          "is_stop_word": false,
+          "list_of_dependents": [],
+          "dependency_type": "obj",
+          "head": 1
+        },
+        {
+          "text": "на",
+          "raw_text": "на",
+          "grammem_info": {
+            "raw_gram_info": "",
+            "part_of_speech": "ADP"
+          },
+          "lemma": "на",
+          "is_stop_word": false,
+          "list_of_dependents": [],
+          "dependency_type": "case",
+          "head": 4
+        },
+        {
+          "text": "коррекцию",
+          "raw_text": "коррекцию",
+          "grammem_info": {
+            "animacy": "inan",
+            "case": "acc",
+            "gender": "fem",
+            "number": "sing",
+            "raw_gram_info": "animacy=inan|case=acc|gender=fem|number=sing",
+            "part_of_speech": "NOUN"
+          },
+          "lemma": "коррекция",
+          "is_stop_word": false,
+          "list_of_dependents": [
+            3
+          ],
+          "dependency_type": "obl",
+          "head": 1
+        },
+        {
+          "text": "бровей",
+          "raw_text": "бровей",
+          "grammem_info": {
+            "animacy": "inan",
+            "case": "gen",
+            "gender": "fem",
+            "number": "plur",
+            "raw_gram_info": "animacy=inan|case=gen|gender=fem|number=plur",
+            "part_of_speech": "NOUN"
+          },
+          "lemma": "бровь",
+          "is_stop_word": false,
+          "list_of_dependents": [
+            1
+          ],
+          "dependency_type": "root",
+          "head": 0
+        },
+        {
+          "raw_text": ".",
+          "text": ".",
+          "lemma": ".",
+          "token_type": "SENTENCE_ENDPOINT_TOKEN",
+          "token_value": {
+            "value": "."
+          },
+          "list_of_token_types_data": [
+            {
+              "token_type": "SENTENCE_ENDPOINT_TOKEN",
+              "token_value": {
+                "value": "."
+              }
+            }
+          ]
+        }
+      ],
+      "entities": {},
+      "original_message_name": "VOICE_FROM_USER",
+      "human_normalized_text": "записать я на коррекция бровь",
+      "asr_normalized_message": "Запиши меня на коррекцию бровей",
+      "human_normalized_text_with_anaphora": "записать я на коррекция бровь"
+    },
+    "device": {
+      "platformType": "ANDROID",
+      "platformVersion": "9",
+      "surface": "DEMO",
+      "surfaceVersion": "20.10.0.3760",
+      "features": {
+        "appTypes": [
+          "DIALOG",
+          "WEB_APP"
+        ]
+      },
+      "capabilities": {
+        "screen": {
+          "available": true,
+          "height": 2160,
+          "scale_factor": 3,
+          "width": 1080
+        }
+      },
+      "deviceId": "",
+      "deviceManufacturer": "HUAWEI",
+      "deviceModel": "BND-L21",
+      "additionalInfo": {
+        "host_app_id": "ru.sberbank.sdakit.demo",
+        "sdk_version": "20.10.0.3760"
+      }
+    },
+    "app_info": {
+      "projectId": "0de0ddcc-66af-4859-b0f7-77e034271a75",
+      "applicationId": "fe0f6b1d-7525-427b-937d-48b7caeb82db",
+      "appversionId": "a52d09ea-b781-4378-b37e-d422da8b58dc",
+      "systemName": "duplex_app",
+      "frontendEndpoint": "https://text-api-test.activebc.ru:30313/api-sbrf",
+      "frontendType": "DIALOG"
+    },
+    "annotations": {
+      "censor_data": {
+        "classes": [
+          "politicians",
+          "obscene",
+          "model_response"
+        ],
+        "probas": [
+          0,
+          0,
+          0.002036742866039276
+        ]
+      },
+      "text_sentiment": {
+        "classes": [
+          "negative",
+          "positive",
+          "neutral"
+        ],
+        "probas": [
+          4.2881609374489926E-8,
+          3.0618064524256177E-19,
+          1.0
+        ]
+      },
+      "asr_sentiment": {
+        "classes": [
+          "positive",
+          "neutral",
+          "negative"
+        ],
+        "probas": [
+          0.050983567,
+          0.08637253,
+          0.8626439
+        ]
+      }
+    },
+    "smartBio": {
+      "IdentifyResponse": {
+        "ErrorCode": "10004"
+      }
+    },
+    "new_session": true,
+    "strategies": {
+      "happy_birthday": false,
+      "last_call": null
+    },
+    "meta": {
+      "permissions": [
+        {
+          "type": "record_audio",
+          "status": "granted"
+        },
+        {
+          "type": "geo",
+          "status": "granted"
+        },
+        {
+          "type": "read_contacts",
+          "status": "denied_once"
+        },
+        {
+          "type": "push",
+          "status": "granted"
+        }
+      ],
+      "location": {
+        "lat": 52.9607755,
+        "lon": 36.0882157,
+        "accuracy": 20.7810001373291,
+        "timestamp": 1612945041646
+      },
+      "time": {
+        "timezone_id": "Europe/Moscow",
+        "timezone_offset_sec": 10800,
+        "timestamp": 1612946219386
+      },
+      "mobile_sdk_data": ""
+    },
+    "selected_item": {},
+    "client_profile": {
+      "name": "ЛЮБОВЬ",
+      "patronymic": "СЕРГЕЕВНА",
+      "surname": "РОЖЕНИГОВА",
+      "gender": 2,
+      "birthDate": "12.06.1989",
+      "electronicAddresses": [
+        {
+          "contactStatus": 1,
+          "electronicAddress": "TYRE1@MAIL.RU",
+          "noElectronicAddress": false
+        },
+        {
+          "contactStatus": 1,
+          "electronicAddress": "ANTOREW@YA.RU",
+          "noElectronicAddress": false
+        },
+        {
+          "contactStatus": 1,
+          "electronicAddress": "DF12@YA.RU",
+          "noElectronicAddress": false
+        },
+        {
+          "contactStatus": 1,
+          "electronicAddress": "TY123@MAIL.RU",
+          "noElectronicAddress": false
+        },
+        {
+          "contactStatus": 1,
+          "electronicAddress": "REO@YA.RU",
+          "noElectronicAddress": false
+        }
+      ],
+      "phoneNumbers": [
+        {
+          "contactStatus": 1,
+          "phoneNumber": "+7 (926) 3489256",
+          "noPhone": false,
+          "mobileOperator": "mMEGAFON",
+          "flags": [
+            58,
+            7,
+            52,
+            67,
+            54
+          ]
+        },
+        {
+          "contactStatus": 1,
+          "phoneNumber": "+7 (926) 5983948",
+          "noPhone": false,
+          "mobileOperator": "mMEGAFON",
+          "flags": [
+            58,
+            67,
+            54
+          ]
+        },
+        {
+          "contactStatus": 1,
+          "phoneNumber": "+7 (915) 6790213",
+          "noPhone": false,
+          "mobileOperator": "mMTS",
+          "flags": [
+            58,
+            7,
+            52,
+            67,
+            54
+          ]
+        }
+      ]
+    },
+    "character": {
+      "id": "sber",
+      "name": "Сбер",
+      "gender": "male",
+      "appeal": "official"
+    },
+    "inner_entities": {
+      "FOOD_STOPWORDS_TOKEN": [
+        {
+          "ner": "запиши",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "меня",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "на",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "коррекцию",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "бровей",
+          "norm": "",
+          "distance": 0.0
+        }
+      ],
+      "WIKI_STOPWORDS_TOKEN": [
+        {
+          "ner": "запиши",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "меня",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "на",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "коррекцию",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "бровей",
+          "norm": "",
+          "distance": 0.0
+        }
+      ],
+      "VIDEO_STOPWORDS_TOKEN": [
+        {
+          "ner": "запиши",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "меня",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "на",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "коррекцию",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "бровей",
+          "norm": "",
+          "distance": 0.0
+        }
+      ],
+      "MUSIC_STOPWORDS_TOKEN": [
+        {
+          "ner": "запиши",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "меня",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "на",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "коррекцию",
+          "norm": "",
+          "distance": 0.0
+        },
+        {
+          "ner": "бровей",
+          "norm": "",
+          "distance": 0.0
+        }
+      ]
+    }
+  },
+  "uuid": {
+    "userId": "213e8b97-38a5-4978-ad6f-97af04667a46",
+    "sub": "WsuPoVHg6Naq51IM6iDhAAM0AuiJK0Qm6w/kOgPTDcNUi4hK5176E/QzK5A2lVyeYnTbwTHlmMSBgr3eP1QuxNxFRstX3FQJgX6wUsIJPF2dCQYEKFDg6in8uYyYnmBzS59kwr6plIdAZV32zi7K/g==",
+    "userChannel": "FEBRUARY"
+  }
+}

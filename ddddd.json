@@ -1,0 +1,49 @@
+client_profile: {
+name: Владимир,
+gender: 2,
+surname: Патапов,
+birthDate: 03.08.1989,
+patronymic: *********,
+phoneNumbers: [
+{
+flags: [...], // 5 items
+noPhone: false,
+phoneNumber: +79267776655,
+contactStatus: 1,
+mobileOperator: mMEGAFON
+},
+{
+flags: [...], // 3 items
+noPhone: false,
+phoneNumber: +79235678900,
+contactStatus: 1,
+mobileOperator: mMEGAFON
+},
+{
+flags: [...], // 5 items
+noPhone: false,
+phoneNumber: +79155556677,
+contactStatus: 1,
+mobileOperator: mMTS
+}
+],
+aggregated_data: {
+gender: 2,
+ageBucket: от 30 до 39 лет,
+birthdayEvent: false,
+residenceCity: МОСКВА,
+residenceRegion: МОСКВА
+},
+electronicAddresses: [
+{
+contactStatus: 1,
+electronicAddress: gusi@gusi.ru,
+noElectronicAddress: false
+},
+{
+contactStatus: 1,
+electronicAddress: gusi2@gusi.ru,
+noElectronicAddress: false
+}
+]
+}
