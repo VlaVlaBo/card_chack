@@ -1,0 +1,31 @@
+{
+        "type": "grid_card",
+        "items": [
+            {
+                "type": "greeting_grid_item",
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "Какая высота Эвереста?",
+                    "typeface": "headline3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                        "text": "Как работает навык Дуэт"
+                    }
+                ]
+            }
+        ],
+        "columns": 1,
+        "item_width": "small"
+}
