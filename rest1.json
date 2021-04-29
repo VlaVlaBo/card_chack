@@ -1,411 +1,159 @@
 {
-  "type": "list_card",
-  "cells": [
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Запись в «Черная Кость»\nСафоновская, 17\nметро Кунцевская\nЛюбой свободный мастер",
-        "typeface": "body3",
-        "max_lines": 0,
-        "text_color": "default"
-      },
-      "paddings": {
-        "top": "1x",
-        "left": "8x",
-        "right": "8x"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "на мужскую стрижку и стрижку бороды",
-        "typeface": "text1",
-        "max_lines": 0,
-        "text_color": "default"
-      },
-      "paddings": {
-        "top": "3x",
-        "left": "8x",
-        "right": "8x"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Основная дата:\nПятница, 19 марта с 19:00 до 22:00\nДополнительная дата:\nСуббота, 20 марта в 20:00",
-        "typeface": "text1",
-        "max_lines": 0,
-        "text_color": "inverse"
-      },
-      "paddings": {
-        "top": "3x",
-        "left": "8x",
-        "right": "8x"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Запись на имя *********** телефона +7(926)-***-**-01\nНапомнить за 1 час",
-        "typeface": "text1",
-        "max_lines": 0,
-        "text_color": "secondary"
-      },
-      "paddings": {
-        "top": "1x",
-        "left": "8x",
-        "right": "8x"
-      }
-    },
-    {
-      "left": {
-        "icon": {
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "address": {
-            "type": "local",
-            "identificator": "arrow_right_trace_line"
-          },
-          "margins": {
-            "top": "1x",
-            "left": "8x",
-            "right": "3x",
-            "bottom": "1x"
-          },
-          "tint_color": "solid_warning"
-        },
-        "type": "simple_left_view",
-        "title": {
-          "text": "Записаться",
-          "margins": {
-            "top": "4x",
-            "left": "3x",
-            "bottom": "4x"
-          },
-          "typeface": "body1",
-          "max_lines": 1,
-          "text_color": "warning"
-        }
-      },
-      "type": "left_right_cell_view",
-      "actions": [
-        {
-          "text": "Всё верно",
-          "type": "text"
-        }
-      ],
-      "divider": {
-        "size": "d3",
-        "style": "default"
-      },
-      "paddings": {
-        "top": "1x",
-        "left": "0x",
-        "right": "0x",
-        "bottom": "1x"
-      }
-    },
-    {
-      "left": {
-        "icon": {
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "address": {
-            "type": "local",
-            "identificator": "building"
-          },
-          "margins": {
-            "top": "1x",
-            "left": "8x",
-            "right": "3x",
-            "bottom": "1x"
-          },
-          "tint_color": "solid_white"
-        },
-        "type": "simple_left_view",
-        "title": {
-          "text": "Изменить основную дату",
-          "margins": {
-            "top": "4x",
-            "left": "3x",
-            "bottom": "4x"
-          },
-          "typeface": "body1",
-          "max_lines": 1,
-          "text_color": "default"
-        }
-      },
-      "type": "left_right_cell_view",
-      "actions": [
-        {
-          "text": "Изменить основную дату и время",
-          "type": "text"
-        }
-      ],
-      "divider": {
-        "size": "d3",
-        "style": "default"
-      },
-      "paddings": {
-        "top": "1x",
-        "left": "0x",
-        "right": "0x",
-        "bottom": "1x"
-      }
-    },
-    {
-      "left": {
-        "icon": {
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "address": {
-            "type": "local",
-            "identificator": "counterclock_wise"
-          },
-          "margins": {
-            "top": "1x",
-            "left": "8x",
-            "right": "3x",
-            "bottom": "1x"
-          },
-          "tint_color": "solid_white"
-        },
-        "type": "simple_left_view",
-        "title": {
-          "text": "Изменить дополнительную дату",
-          "margins": {
-            "top": "4x",
-            "left": "3x",
-            "bottom": "4x"
-          },
-          "typeface": "body1",
-          "max_lines": 1,
-          "text_color": "default"
-        }
-      },
-      "type": "left_right_cell_view",
-      "actions": [
-        {
-          "text": "Изменить дополнительную дату",
-          "type": "text"
-        }
-      ],
-      "divider": {
-        "size": "d3",
-        "style": "default"
-      },
-      "paddings": {
-        "top": "1x",
-        "left": "0x",
-        "right": "0x",
-        "bottom": "1x"
-      }
-    },
-    {
-      "left": {
-        "icon": {
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "address": {
-            "type": "local",
-            "identificator": "passport"
-          },
-          "margins": {
-            "top": "1x",
-            "left": "8x",
-            "right": "3x",
-            "bottom": "1x"
-          },
-          "tint_color": "solid_white"
-        },
-        "type": "simple_left_view",
-        "title": {
-          "text": "Изменить имя мастера",
-          "margins": {
-            "top": "4x",
-            "left": "3x",
-            "bottom": "4x"
-          },
-          "typeface": "body1",
-          "max_lines": 1,
-          "text_color": "default"
-        }
-      },
-      "type": "left_right_cell_view",
-      "actions": [
-        {
-          "text": "Изменить имя мастера",
-          "type": "text"
-        }
-      ],
-      "divider": {
-        "size": "d3",
-        "style": "default"
-      },
-      "paddings": {
-        "top": "1x",
-        "left": "0x",
-        "right": "0x",
-        "bottom": "1x"
-      }
-    },
-    {
-      "left": {
-        "icon": {
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "address": {
-            "type": "local",
-            "identificator": "document_checkmark"
-          },
-          "margins": {
-            "top": "1x",
-            "left": "8x",
-            "right": "3x",
-            "bottom": "1x"
-          },
-          "tint_color": "solid_white"
-        },
-        "type": "simple_left_view",
-        "title": {
-          "text": "Добавить услугу",
-          "margins": {
-            "top": "4x",
-            "left": "3x",
-            "bottom": "4x"
-          },
-          "typeface": "body1",
-          "max_lines": 1,
-          "text_color": "default"
-        }
-      },
-      "type": "left_right_cell_view",
-      "actions": [
-        {
-          "text": "Добавить услугу",
-          "type": "text"
-        }
-      ],
-      "divider": {
-        "size": "d3",
-        "style": "default"
-      },
-      "paddings": {
-        "top": "1x",
-        "left": "0x",
-        "right": "0x",
-        "bottom": "1x"
-      }
-    },
-    {
-      "left": {
-        "icon": {
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "address": {
-            "type": "local",
-            "identificator": "circle_cross"
-          },
-          "margins": {
-            "top": "1x",
-            "left": "8x",
-            "right": "3x",
-            "bottom": "1x"
-          },
-          "tint_color": "solid_white"
-        },
-        "type": "simple_left_view",
-        "title": {
-          "text": "Удалить услугу",
-          "margins": {
-            "top": "4x",
-            "left": "3x",
-            "bottom": "4x"
-          },
-          "typeface": "body1",
-          "max_lines": 1,
-          "text_color": "default"
-        }
-      },
-      "type": "left_right_cell_view",
-      "actions": [
-        {
-          "text": "Удалить услугу",
-          "type": "text"
-        }
-      ],
-      "divider": {
-        "size": "d3",
-        "style": "default"
-      },
-      "paddings": {
-        "top": "1x",
-        "left": "0x",
-        "right": "0x",
-        "bottom": "1x"
-      }
-    },
-    {
-      "left": {
-        "icon": {
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "address": {
-            "type": "local",
-            "identificator": "bell"
-          },
-          "margins": {
-            "top": "1x",
-            "left": "8x",
-            "right": "3x",
-            "bottom": "1x"
-          },
-          "tint_color": "solid_white"
-        },
-        "type": "simple_left_view",
-        "title": {
-          "text": "Изменить напоминание",
-          "margins": {
-            "top": "4x",
-            "left": "3x",
-            "bottom": "4x"
-          },
-          "typeface": "body1",
-          "max_lines": 1,
-          "text_color": "default"
-        }
-      },
-      "type": "left_right_cell_view",
-      "actions": [
-        {
-          "text": "Изменить напоминание",
-          "type": "text"
-        }
-      ],
-      "divider": {
-        "size": "d3",
-        "style": "default"
-      },
-      "paddings": {
-        "top": "1x",
-        "left": "0x",
-        "right": "0x",
-        "bottom": "1x"
-      }
+    "card": {
+        "type": "grid_card",
+        "items": [
+          {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "СОБЕСЕДНИК",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "Какая высота Эвереста?",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                        "text": "Какая высота Эвереста?"
+                    }
+                ]
+            },
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "СОБЕСЕДНИК",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "Какая высота Эвереста?",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                        "text": "Какая высота Эвереста?"
+                    }
+                ]
+            },
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "КОШЕЛЕК",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "Сколько у меня денег?",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                        "text": "Сколько у меня денег?"
+                    }
+                ]
+            },
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "ПОГОДА",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "Какая погода вечером в Москве?",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                        "text": "Какая погода вечером в Москве?"
+                    }
+                ]
+            },
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "ПЕРЕВОД",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "Отправь маме 500 рублей",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                        "text": "Отправь маме 500 рублей"
+                    }
+                ]
+            }
+        ],
+        "columns": 2,
+        "item_width": "small"
     }
-  ]
 }
