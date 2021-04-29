@@ -1,211 +1,38 @@
 {
-  "type": "list_card",
-  "cells": [
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Запись в «Borodach»\nЛенина, 26а\nМастер: Евгения",
-        "typeface": "body3",
-        "max_lines": 0,
-        "text_color": "default"
-      },
-      "paddings": {
-        "top": "1x",
-        "left": "8x",
-        "right": "8x"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "",
-        "typeface": "text1",
-        "max_lines": 0,
-        "text_color": "default"
-      },
-      "paddings": {
-        "top": "3x",
-        "left": "8x",
-        "right": "8x"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Основная дата:\nВоскресенье, на 21 марта в 17:30",
-        "typeface": "text1",
-        "max_lines": 0,
-        "text_color": "inverse"
-      },
-      "paddings": {
-        "top": "3x",
-        "left": "8x",
-        "right": "8x"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Запись на имя *********** телефона +7(926)-***-**-01\nНапомнить за 1 час",
-        "typeface": "text1",
-        "max_lines": 0,
-        "text_color": "secondary"
-      },
-      "paddings": {
-        "top": "1x",
-        "left": "8x",
-        "right": "8x"
-      }
-    },
-    {
-      "left": {
-        "icon": {
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "address": {
-            "type": "local",
-            "identificator": "arrow_right_trace_line"
-          },
-          "margins": {
-            "top": "1x",
-            "left": "8x",
-            "right": "3x",
-            "bottom": "1x"
-          },
-          "tint_color": "solid_warning"
-        },
-        "type": "simple_left_view",
-        "title": {
-          "text": "Перенести",
-          "margins": {
-            "top": "4x",
-            "left": "3x",
-            "bottom": "4x"
-          },
-          "typeface": "body1",
-          "max_lines": 1,
-          "text_color": "warning"
-        }
-      },
-      "type": "left_right_cell_view",
-      "actions": [
-        {
-          "text": "Всё верно",
-          "type": "text"
-        }
-      ],
-      "divider": {
-        "size": "d3",
-        "style": "default"
-      },
-      "paddings": {
-        "top": "1x",
-        "left": "0x",
-        "right": "0x",
-        "bottom": "1x"
-      }
-    },
-    {
-      "left": {
-        "icon": {
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "address": {
-            "type": "local",
-            "identificator": "clock"
-          },
-          "margins": {
-            "top": "1x",
-            "left": "8x",
-            "right": "3x",
-            "bottom": "1x"
-          },
-          "tint_color": "solid_white"
-        },
-        "type": "simple_left_view",
-        "title": {
-          "text": "Перенести на другую дату",
-          "margins": {
-            "top": "4x",
-            "left": "3x",
-            "bottom": "4x"
-          },
-          "typeface": "body1",
-          "max_lines": 1,
-          "text_color": "default"
-        }
-      },
-      "type": "left_right_cell_view",
-      "actions": [
-        {
-          "text": "Перенести на другую дату и время",
-          "type": "text"
-        }
-      ],
-      "divider": {
-        "size": "d3",
-        "style": "default"
-      },
-      "paddings": {
-        "top": "1x",
-        "left": "0x",
-        "right": "0x",
-        "bottom": "1x"
-      }
-    },
-    {
-      "left": {
-        "icon": {
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "address": {
-            "type": "local",
-            "identificator": "bell"
-          },
-          "margins": {
-            "top": "1x",
-            "left": "8x",
-            "right": "3x",
-            "bottom": "1x"
-          },
-          "tint_color": "solid_white"
-        },
-        "type": "simple_left_view",
-        "title": {
-          "text": "Изменить напоминание",
-          "margins": {
-            "top": "4x",
-            "left": "3x",
-            "bottom": "4x"
-          },
-          "typeface": "body1",
-          "max_lines": 1,
-          "text_color": "default"
-        }
-      },
-      "type": "left_right_cell_view",
-      "actions": [
-        {
-          "text": "Изменить напоминание",
-          "type": "text"
-        }
-      ],
-      "divider": {
-        "size": "d3",
-        "style": "default"
-      },
-      "paddings": {
-        "top": "1x",
-        "left": "0x",
-        "right": "0x",
-        "bottom": "1x"
-      }
-    }
-  ]
+        "type": "grid_card",
+        "items": [
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "Как работает сервис Дуэт",
+                    "typeface": "caption",
+                    "text_color": "secondary"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "Бронируй, изменяй, отменяй записи через ассистента",
+                    "typeface": "headline3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                        "text": "Как работает Дуэт"
+                    }
+                ]
+            }
+
+        ],
+        "columns": 1,
+        "item_width": "resizable"
 }
