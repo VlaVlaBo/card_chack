@@ -1,40 +1,16 @@
 {
-  "items": [
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Запись в «Borodach»\nЛенина, 26а\nМастер: Евгения",
-              "typeface": "body3",
-              "max_lines": 0,
-              "text_color": "default"
-            },
-            "paddings": {
-              "top": "1x",
-              "left": "8x",
-              "right": "8x"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
         "type": "grid_card",
         "items": [
           {
             "type": "greeting_grid_item",
             "top_text": {
-              "text": "СОБЕСЕДНИК",
+              "text": "Рестораны, бары, кафе",
               "typeface": "caption",
-              "text_color": "default"
+              "text_color": "secondary"
             },
             "bottom_text": {
-              "text": "Какая высота Эвереста?",
-              "typeface": "body3",
+              "text": "Забронировать столик",
+              "typeface": "headline3",
               "text_color": "default",
               "max_lines": 3,
               "margins": {
@@ -50,20 +26,20 @@
             "actions": [
               {
                 "type": "text",
-                "text": "Какая высота Эвереста?"
+                "text": "Забронировать столик"
               }
             ]
           },
           {
             "type": "greeting_grid_item",
             "top_text": {
-              "text": "КОШЕЛЕК",
+              "text": "Уход за собой",
               "typeface": "caption",
-              "text_color": "default"
+              "text_color": "secondary"
             },
             "bottom_text": {
-              "text": "Сколько у меня денег?",
-              "typeface": "body3",
+              "text": "Записаться в парикмахерскую, салон красоты или барбершоп",
+              "typeface": "headline3",
               "text_color": "default",
               "max_lines": 3,
               "margins": {
@@ -79,19 +55,19 @@
             "actions": [
               {
                 "type": "text",
-                "text": "Сколько у меня денег?"
+                "text": "Записаться в салон красоты"
               }
             ]
           },
           {
             "type": "greeting_grid_item",
             "top_text": {
-              "text": "ПОГОДА",
+              "text": "Здоровье",
               "typeface": "caption",
-              "text_color": "default"
+              "text_color": "secondary"
             },
             "bottom_text": {
-              "text": "Какая погода вечером в Москве?",
+              "text": "Записаться на приём к врачу",
               "typeface": "body3",
               "text_color": "default",
               "max_lines": 3,
@@ -108,7 +84,7 @@
             "actions": [
               {
                 "type": "text",
-                "text": "Какая погода вечером в Москве?"
+                "text": "Записаться на прием к врачу"
               }
             ]
           },
@@ -145,6 +121,3 @@
         "columns": 2,
         "item_width": "small"
       }
-    }
-  ]
-}
