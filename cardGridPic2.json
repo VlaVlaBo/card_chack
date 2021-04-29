@@ -1,8 +1,7 @@
 {
-
-    "type": "grid_card",
-    "items": [
-          {
+    "type": "list_card",
+  "cells": [
+    {
       "type": "text_cell_view",
       "content": {
         "text": "Запись в «Borodach»\nЛенина, 26а\nМастер: Евгения",
@@ -15,7 +14,11 @@
         "left": "8x",
         "right": "8x"
       }
-    },
+    }
+  ],
+    "type": "grid_card",
+    "items": [
+
       {
         "type": "greeting_grid_item",
         "top_text": {
