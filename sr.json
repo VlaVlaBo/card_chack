@@ -1,738 +1,731 @@
-"items": [
+{
+  "card": {
+    "type": "list_card",
+    "paddings": {
+      "top": "8x",
+      "bottom": "8x",
+      "left": "8x",
+      "right": "8x"
+    },
+    "cells": [
       {
-        "bubble": {
-          "text": "Нашёл вам несколько вариантов. Выберите карточку, и будем строить маршрут"
+        "type": "left_right_cell_view",
+        "paddings": {
+          "top": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "texts": {
+            "title": {
+              "text": "Vardex",
+              "typeface": "body2",
+              "text_color": "default",
+              "max_lines": 2
+            },
+            "subtitle": {
+              "text": "Электронные сигареты • Владивосток, Русская, 46 ст3 • 6409 км • ост. Универсам • Закрыто до 10:00",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 0,
+              "margins": {
+                "top": "2x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "★ 4",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "2x"
+          },
+          "vertical_gravity": "top"
+        },
+        "actions": [
+          {
+            "type": "server_action",
+            "message_name": "SERVER_ACTION",
+            "server_action": {
+              "action_id": "tap_chosen_card",
+              "parameters": {
+                "card_position": 0,
+                "place": {
+                  "address": {
+                    "building_id": "3519072864047166",
+                    "building_name": "ТЦ Гранд",
+                    "components": [
+                      {
+                        "number": "46 ст3",
+                        "street": "Русская",
+                        "street_id": "3519175943258260",
+                        "type": "street_number"
+                      }
+                    ],
+                    "postcode": "690039"
+                  },
+                  "address_comment": "1 этаж",
+                  "address_name": "Русская, 46 ст3",
+                  "adm_div": [
+                    {
+                      "id": "1",
+                      "name": "Россия",
+                      "type": "country"
+                    },
+                    {
+                      "id": "1267655302447132",
+                      "name": "Приморский край",
+                      "type": "region"
+                    },
+                    {
+                      "id": "70030076118166808",
+                      "name": "Владивостокский городской округ",
+                      "type": "district_area"
+                    },
+                    {
+                      "city_alias": "vladivostok",
+                      "flags": {
+                        "is_default": true,
+                        "is_district_area_center": true,
+                        "is_region_center": true
+                      },
+                      "id": "3519059979141128",
+                      "is_default": true,
+                      "name": "Владивосток",
+                      "type": "city"
+                    },
+                    {
+                      "id": "3519047094239236",
+                      "name": "Советский район",
+                      "type": "district"
+                    }
+                  ],
+                  "full_address_name": "Владивосток, Русская, 46 ст3",
+                  "id": "70000001041591742_lz4khm78964H3H8301IGGGGGtgtgcd98G6G8038651369485wnDrA56B19G36G6G1JG4IJG3sj3Euv191B351013363H1J3H149",
+                  "links": {
+                    "nearest_stations": [
+                      {
+                        "distance": 150,
+                        "id": "3519223187898744",
+                        "name": "Универсам",
+                        "route_types": [
+                          "bus",
+                          "trolleybus",
+                          "shuttle_bus"
+                        ]
+                      }
+                    ]
+                  },
+                  "name": "Vardex, профессиональная сеть магазинов электронных устройств и систем нагревания",
+                  "name_ex": {
+                    "extension": "профессиональная сеть магазинов электронных устройств и систем нагревания",
+                    "legal_name": "ООО Вардекс плюс",
+                    "primary": "Vardex",
+                    "short_name": "Vardex"
+                  },
+                  "point": {
+                    "lat": 43.166328,
+                    "lon": 131.913555
+                  },
+                  "reviews": {
+                    "general_rating": 4,
+                    "general_review_count": 3,
+                    "is_reviewable": true,
+                    "is_reviewable_on_flamp": true,
+                    "items": [
+                      {
+                        "is_reviewable": true,
+                        "tag": "2gis_reviews"
+                      },
+                      {
+                        "is_reviewable": true,
+                        "tag": "flamp"
+                      }
+                    ],
+                    "org_rating": 4.3,
+                    "org_review_count": 57
+                  },
+                  "rubrics": [
+                    {
+                      "alias": "ehlektronnye_sigarety",
+                      "id": "110483",
+                      "kind": "primary",
+                      "name": "Электронные сигареты",
+                      "parent_id": "14",
+                      "short_id": 110483
+                    },
+                    {
+                      "alias": "tabachnye_izdeliya_tovary_dlya_kureniya",
+                      "id": "367",
+                      "kind": "additional",
+                      "name": "Табачные изделия / Товары для курения",
+                      "parent_id": "14",
+                      "short_id": 367
+                    }
+                  ],
+                  "schedule": {
+                    "Fri": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Mon": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Sat": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Sun": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Thu": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Tue": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Wed": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    }
+                  },
+                  "timezone_offset": 600,
+                  "type": "branch"
+                },
+                "type": "pointB",
+                "point_from": {
+                  "lat": 55.88153484276256,
+                  "lon": 37.58480007846959
+                }
+              }
+            }
+          }
+        ],
+        "divider": {
+          "style": "default",
+          "size": "d1"
         }
       },
       {
-        "card": {
-          "type": "list_card",
-          "paddings": {
-            "top": "8x",
-            "bottom": "8x",
-            "left": "8x",
-            "right": "8x"
-          },
-          "cells": [
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "Vardex",
-                    "typeface": "body2",
-                    "text_color": "default",
-                    "max_lines": 2
-                  },
-                  "subtitle": {
-                    "text": "Электронные сигареты • Владивосток, Русская, 46 ст3 • 6409 км • ост. Универсам • Закрыто до 10:00",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "max_lines": 0,
-                    "margins": {
-                      "top": "2x"
-                    }
-                  }
-                }
-              },
-              "right": {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "★ 4",
-                  "typeface": "body1",
-                  "text_color": "default"
-                },
-                "margins": {
-                  "left": "2x"
-                },
-                "vertical_gravity": "top"
-              },
-              "actions": [
-                {
-                  "type": "server_action",
-                  "message_name": "SERVER_ACTION",
-                  "server_action": {
-                    "action_id": "tap_chosen_card",
-                    "parameters": {
-                      "card_position": 0,
-                      "place": {
-                        "address": {
-                          "building_id": "3519072864047166",
-                          "building_name": "ТЦ Гранд",
-                          "components": [
-                            {
-                              "number": "46 ст3",
-                              "street": "Русская",
-                              "street_id": "3519175943258260",
-                              "type": "street_number"
-                            }
-                          ],
-                          "postcode": "690039"
-                        },
-                        "address_comment": "1 этаж",
-                        "address_name": "Русская, 46 ст3",
-                        "adm_div": [
-                          {
-                            "id": "1",
-                            "name": "Россия",
-                            "type": "country"
-                          },
-                          {
-                            "id": "1267655302447132",
-                            "name": "Приморский край",
-                            "type": "region"
-                          },
-                          {
-                            "id": "70030076118166808",
-                            "name": "Владивостокский городской округ",
-                            "type": "district_area"
-                          },
-                          {
-                            "city_alias": "vladivostok",
-                            "flags": {
-                              "is_default": true,
-                              "is_district_area_center": true,
-                              "is_region_center": true
-                            },
-                            "id": "3519059979141128",
-                            "is_default": true,
-                            "name": "Владивосток",
-                            "type": "city"
-                          },
-                          {
-                            "id": "3519047094239236",
-                            "name": "Советский район",
-                            "type": "district"
-                          }
-                        ],
-                        "full_address_name": "Владивосток, Русская, 46 ст3",
-                        "id": "70000001041591742_lz4khm78964H3H8301IGGGGGtgtgcd98G6G8038651369485wnDrA56B19G36G6G1JG4IJG3sj3Euv191B351013363H1J3H149",
-                        "links": {
-                          "nearest_stations": [
-                            {
-                              "distance": 150,
-                              "id": "3519223187898744",
-                              "name": "Универсам",
-                              "route_types": [
-                                "bus",
-                                "trolleybus",
-                                "shuttle_bus"
-                              ]
-                            }
-                          ]
-                        },
-                        "name": "Vardex, профессиональная сеть магазинов электронных устройств и систем нагревания",
-                        "name_ex": {
-                          "extension": "профессиональная сеть магазинов электронных устройств и систем нагревания",
-                          "legal_name": "ООО Вардекс плюс",
-                          "primary": "Vardex",
-                          "short_name": "Vardex"
-                        },
-                        "point": {
-                          "lat": 43.166328,
-                          "lon": 131.913555
-                        },
-                        "reviews": {
-                          "general_rating": 4,
-                          "general_review_count": 3,
-                          "is_reviewable": true,
-                          "is_reviewable_on_flamp": true,
-                          "items": [
-                            {
-                              "is_reviewable": true,
-                              "tag": "2gis_reviews"
-                            },
-                            {
-                              "is_reviewable": true,
-                              "tag": "flamp"
-                            }
-                          ],
-                          "org_rating": 4.3,
-                          "org_review_count": 57
-                        },
-                        "rubrics": [
-                          {
-                            "alias": "ehlektronnye_sigarety",
-                            "id": "110483",
-                            "kind": "primary",
-                            "name": "Электронные сигареты",
-                            "parent_id": "14",
-                            "short_id": 110483
-                          },
-                          {
-                            "alias": "tabachnye_izdeliya_tovary_dlya_kureniya",
-                            "id": "367",
-                            "kind": "additional",
-                            "name": "Табачные изделия / Товары для курения",
-                            "parent_id": "14",
-                            "short_id": 367
-                          }
-                        ],
-                        "schedule": {
-                          "Fri": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Mon": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Sat": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Sun": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Thu": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Tue": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Wed": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          }
-                        },
-                        "timezone_offset": 600,
-                        "type": "branch"
-                      },
-                      "type": "pointB",
-                      "point_from": {
-                        "lat": 55.88153484276256,
-                        "lon": 37.58480007846959
-                      }
-                    }
-                  }
-                }
-              ],
-              "divider": {
-                "style": "default",
-                "size": "d1"
-              }
+        "type": "left_right_cell_view",
+        "paddings": {
+          "top": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "texts": {
+            "title": {
+              "text": "Vardex",
+              "typeface": "body2",
+              "text_color": "default",
+              "max_lines": 2
             },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "Vardex",
-                    "typeface": "body2",
-                    "text_color": "default",
-                    "max_lines": 2
-                  },
-                  "subtitle": {
-                    "text": "Электронные сигареты • Владивосток, Светланская, 87 • 6413 км • ост. Цирк • Закрыто до 09:00",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "max_lines": 0,
-                    "margins": {
-                      "top": "2x"
-                    }
-                  }
-                }
-              },
-              "right": {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "★ 4,6",
-                  "typeface": "body1",
-                  "text_color": "default"
-                },
-                "margins": {
-                  "left": "2x"
-                },
-                "vertical_gravity": "top"
-              },
-              "actions": [
-                {
-                  "type": "server_action",
-                  "message_name": "SERVER_ACTION",
-                  "server_action": {
-                    "action_id": "tap_chosen_card",
-                    "parameters": {
-                      "card_position": 1,
-                      "place": {
-                        "address": {
-                          "building_id": "3519072864049538",
-                          "components": [
-                            {
-                              "number": "87",
-                              "street": "Светланская",
-                              "street_id": "3519175943258113",
-                              "type": "street_number"
-                            }
-                          ],
-                          "postcode": "690001"
-                        },
-                        "address_comment": "9 офис; 1 этаж",
-                        "address_name": "Светланская, 87",
-                        "adm_div": [
-                          {
-                            "id": "1",
-                            "name": "Россия",
-                            "type": "country"
-                          },
-                          {
-                            "id": "1267655302447132",
-                            "name": "Приморский край",
-                            "type": "region"
-                          },
-                          {
-                            "id": "70030076118166808",
-                            "name": "Владивостокский городской округ",
-                            "type": "district_area"
-                          },
-                          {
-                            "city_alias": "vladivostok",
-                            "flags": {
-                              "is_default": true,
-                              "is_district_area_center": true,
-                              "is_region_center": true
-                            },
-                            "id": "3519059979141128",
-                            "is_default": true,
-                            "name": "Владивосток",
-                            "type": "city"
-                          },
-                          {
-                            "id": "3519047094239235",
-                            "name": "Ленинский район",
-                            "type": "district"
-                          }
-                        ],
-                        "full_address_name": "Владивосток, Светланская, 87",
-                        "id": "70000001007364411_lz4khm78964H3H8301IGGGGGtgtgcd98G6G8038651946752wnDrA56B19G36G6G1JG4IJG3sj3Euv191B351013322H2J3H1eb",
-                        "links": {
-                          "nearest_stations": [
-                            {
-                              "distance": 250,
-                              "id": "3519223187898770",
-                              "name": "Цирк",
-                              "route_types": [
-                                "bus",
-                                "shuttle_bus"
-                              ]
-                            }
-                          ]
-                        },
-                        "name": "Vardex, профессиональная сеть магазинов электронных устройств и систем нагревания",
-                        "name_ex": {
-                          "extension": "профессиональная сеть магазинов электронных устройств и систем нагревания",
-                          "legal_name": "ООО Вардекс плюс",
-                          "primary": "Vardex",
-                          "short_name": "Vardex"
-                        },
-                        "point": {
-                          "lat": 43.115761,
-                          "lon": 131.904479
-                        },
-                        "reviews": {
-                          "general_rating": 4.6,
-                          "general_review_count": 8,
-                          "is_reviewable": true,
-                          "is_reviewable_on_flamp": true,
-                          "items": [
-                            {
-                              "is_reviewable": true,
-                              "tag": "2gis_reviews"
-                            },
-                            {
-                              "is_reviewable": true,
-                              "tag": "flamp"
-                            }
-                          ],
-                          "org_rating": 4.3,
-                          "org_review_count": 57
-                        },
-                        "rubrics": [
-                          {
-                            "alias": "ehlektronnye_sigarety",
-                            "id": "110483",
-                            "kind": "primary",
-                            "name": "Электронные сигареты",
-                            "parent_id": "14",
-                            "short_id": 110483
-                          },
-                          {
-                            "alias": "tabachnye_izdeliya_tovary_dlya_kureniya",
-                            "id": "367",
-                            "kind": "additional",
-                            "name": "Табачные изделия / Товары для курения",
-                            "parent_id": "14",
-                            "short_id": 367
-                          }
-                        ],
-                        "schedule": {
-                          "Fri": {
-                            "working_hours": [
-                              {
-                                "from": "09:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Mon": {
-                            "working_hours": [
-                              {
-                                "from": "09:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Sat": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Sun": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Thu": {
-                            "working_hours": [
-                              {
-                                "from": "09:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Tue": {
-                            "working_hours": [
-                              {
-                                "from": "09:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Wed": {
-                            "working_hours": [
-                              {
-                                "from": "09:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          }
-                        },
-                        "timezone_offset": 600,
-                        "type": "branch"
-                      },
-                      "type": "pointB",
-                      "point_from": {
-                        "lat": 55.88153484276256,
-                        "lon": 37.58480007846959
-                      }
-                    }
-                  }
-                }
-              ],
-              "divider": {
-                "style": "default",
-                "size": "d1"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "Vardex",
-                    "typeface": "body2",
-                    "text_color": "default",
-                    "max_lines": 2
-                  },
-                  "subtitle": {
-                    "text": "Электронные сигареты • Владивосток, Светланская, 31/4 • 6412 км • ост. Площадь борцов революции • Закрыто до 10:00",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "max_lines": 0,
-                    "margins": {
-                      "top": "2x"
-                    }
-                  }
-                }
-              },
-              "right": {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "★ 4,8",
-                  "typeface": "body1",
-                  "text_color": "default"
-                },
-                "margins": {
-                  "left": "2x"
-                },
-                "vertical_gravity": "top"
-              },
-              "actions": [
-                {
-                  "type": "server_action",
-                  "message_name": "SERVER_ACTION",
-                  "server_action": {
-                    "action_id": "tap_chosen_card",
-                    "parameters": {
-                      "card_position": 2,
-                      "place": {
-                        "address": {
-                          "building_id": "70030076131724741",
-                          "components": [
-                            {
-                              "number": "31/4",
-                              "street": "Светланская",
-                              "street_id": "3519175943258113",
-                              "type": "street_number"
-                            }
-                          ],
-                          "postcode": "690091"
-                        },
-                        "address_comment": "1 этаж",
-                        "address_name": "Светланская, 31/4",
-                        "adm_div": [
-                          {
-                            "id": "1",
-                            "name": "Россия",
-                            "type": "country"
-                          },
-                          {
-                            "id": "1267655302447132",
-                            "name": "Приморский край",
-                            "type": "region"
-                          },
-                          {
-                            "id": "70030076118166808",
-                            "name": "Владивостокский городской округ",
-                            "type": "district_area"
-                          },
-                          {
-                            "city_alias": "vladivostok",
-                            "flags": {
-                              "is_default": true,
-                              "is_district_area_center": true,
-                              "is_region_center": true
-                            },
-                            "id": "3519059979141128",
-                            "is_default": true,
-                            "name": "Владивосток",
-                            "type": "city"
-                          },
-                          {
-                            "id": "3519047094239235",
-                            "name": "Ленинский район",
-                            "type": "district"
-                          }
-                        ],
-                        "full_address_name": "Владивосток, Светланская, 31/4",
-                        "id": "70000001034090619_lz4khm78964H3H8301IGGGGGtgtgcd98G6G8038651619372wnDrA56B19G36G6G1JG4IJG3sj3Euv191B35101335AH3J3H1b6",
-                        "links": {
-                          "nearest_stations": [
-                            {
-                              "distance": 60,
-                              "id": "3519223187898765",
-                              "name": "Площадь борцов революции",
-                              "route_types": [
-                                "bus",
-                                "shuttle_bus"
-                              ]
-                            }
-                          ]
-                        },
-                        "name": "Vardex, профессиональная сеть магазинов электронных устройств и систем нагревания",
-                        "name_ex": {
-                          "extension": "профессиональная сеть магазинов электронных устройств и систем нагревания",
-                          "legal_name": "ООО Вардекс плюс",
-                          "primary": "Vardex",
-                          "short_name": "Vardex"
-                        },
-                        "point": {
-                          "lat": 43.115965,
-                          "lon": 131.886452
-                        },
-                        "reviews": {
-                          "general_rating": 4.8,
-                          "general_review_count": 28,
-                          "is_reviewable": true,
-                          "is_reviewable_on_flamp": true,
-                          "items": [
-                            {
-                              "is_reviewable": true,
-                              "tag": "2gis_reviews"
-                            },
-                            {
-                              "is_reviewable": true,
-                              "tag": "flamp"
-                            }
-                          ],
-                          "org_rating": 4.3,
-                          "org_review_count": 57
-                        },
-                        "rubrics": [
-                          {
-                            "alias": "ehlektronnye_sigarety",
-                            "id": "110483",
-                            "kind": "primary",
-                            "name": "Электронные сигареты",
-                            "parent_id": "14",
-                            "short_id": 110483
-                          },
-                          {
-                            "alias": "tabachnye_izdeliya_tovary_dlya_kureniya",
-                            "id": "367",
-                            "kind": "additional",
-                            "name": "Табачные изделия / Товары для курения",
-                            "parent_id": "14",
-                            "short_id": 367
-                          }
-                        ],
-                        "schedule": {
-                          "Fri": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Mon": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Sat": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Sun": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Thu": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Tue": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          },
-                          "Wed": {
-                            "working_hours": [
-                              {
-                                "from": "10:00",
-                                "to": "21:00"
-                              }
-                            ]
-                          }
-                        },
-                        "timezone_offset": 600,
-                        "type": "branch"
-                      },
-                      "type": "pointB",
-                      "point_from": {
-                        "lat": 55.88153484276256,
-                        "lon": 37.58480007846959
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "button_cell_view",
-              "content": {
-                "text": "Посмотреть в 2ГИС",
-                "typeface": "button2",
-                "style": "default",
-                "type": "accept",
-                "actions": [
-                  {
-                    "type": "deep_link",
-                    "deep_link": "https://2gis.ru/search/vardex владивосток?utm_source=sber.ru&utm_campaign=sber.ru_superapp"
-                  }
-                ],
-                "margins": {
-                  "left": "10x",
-                  "top": "5x",
-                  "right": "10x",
-                  "bottom": "5x"
-                }
-              },
-              "paddings": {
-                "top": "10x"
+            "subtitle": {
+              "text": "Электронные сигареты • Владивосток, Светланская, 87 • 6413 км • ост. Цирк • Закрыто до 09:00",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 0,
+              "margins": {
+                "top": "2x"
               }
             }
-          ]
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "★ 4,6",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "2x"
+          },
+          "vertical_gravity": "top"
+        },
+        "actions": [
+          {
+            "type": "server_action",
+            "message_name": "SERVER_ACTION",
+            "server_action": {
+              "action_id": "tap_chosen_card",
+              "parameters": {
+                "card_position": 1,
+                "place": {
+                  "address": {
+                    "building_id": "3519072864049538",
+                    "components": [
+                      {
+                        "number": "87",
+                        "street": "Светланская",
+                        "street_id": "3519175943258113",
+                        "type": "street_number"
+                      }
+                    ],
+                    "postcode": "690001"
+                  },
+                  "address_comment": "9 офис; 1 этаж",
+                  "address_name": "Светланская, 87",
+                  "adm_div": [
+                    {
+                      "id": "1",
+                      "name": "Россия",
+                      "type": "country"
+                    },
+                    {
+                      "id": "1267655302447132",
+                      "name": "Приморский край",
+                      "type": "region"
+                    },
+                    {
+                      "id": "70030076118166808",
+                      "name": "Владивостокский городской округ",
+                      "type": "district_area"
+                    },
+                    {
+                      "city_alias": "vladivostok",
+                      "flags": {
+                        "is_default": true,
+                        "is_district_area_center": true,
+                        "is_region_center": true
+                      },
+                      "id": "3519059979141128",
+                      "is_default": true,
+                      "name": "Владивосток",
+                      "type": "city"
+                    },
+                    {
+                      "id": "3519047094239235",
+                      "name": "Ленинский район",
+                      "type": "district"
+                    }
+                  ],
+                  "full_address_name": "Владивосток, Светланская, 87",
+                  "id": "70000001007364411_lz4khm78964H3H8301IGGGGGtgtgcd98G6G8038651946752wnDrA56B19G36G6G1JG4IJG3sj3Euv191B351013322H2J3H1eb",
+                  "links": {
+                    "nearest_stations": [
+                      {
+                        "distance": 250,
+                        "id": "3519223187898770",
+                        "name": "Цирк",
+                        "route_types": [
+                          "bus",
+                          "shuttle_bus"
+                        ]
+                      }
+                    ]
+                  },
+                  "name": "Vardex, профессиональная сеть магазинов электронных устройств и систем нагревания",
+                  "name_ex": {
+                    "extension": "профессиональная сеть магазинов электронных устройств и систем нагревания",
+                    "legal_name": "ООО Вардекс плюс",
+                    "primary": "Vardex",
+                    "short_name": "Vardex"
+                  },
+                  "point": {
+                    "lat": 43.115761,
+                    "lon": 131.904479
+                  },
+                  "reviews": {
+                    "general_rating": 4.6,
+                    "general_review_count": 8,
+                    "is_reviewable": true,
+                    "is_reviewable_on_flamp": true,
+                    "items": [
+                      {
+                        "is_reviewable": true,
+                        "tag": "2gis_reviews"
+                      },
+                      {
+                        "is_reviewable": true,
+                        "tag": "flamp"
+                      }
+                    ],
+                    "org_rating": 4.3,
+                    "org_review_count": 57
+                  },
+                  "rubrics": [
+                    {
+                      "alias": "ehlektronnye_sigarety",
+                      "id": "110483",
+                      "kind": "primary",
+                      "name": "Электронные сигареты",
+                      "parent_id": "14",
+                      "short_id": 110483
+                    },
+                    {
+                      "alias": "tabachnye_izdeliya_tovary_dlya_kureniya",
+                      "id": "367",
+                      "kind": "additional",
+                      "name": "Табачные изделия / Товары для курения",
+                      "parent_id": "14",
+                      "short_id": 367
+                    }
+                  ],
+                  "schedule": {
+                    "Fri": {
+                      "working_hours": [
+                        {
+                          "from": "09:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Mon": {
+                      "working_hours": [
+                        {
+                          "from": "09:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Sat": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Sun": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Thu": {
+                      "working_hours": [
+                        {
+                          "from": "09:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Tue": {
+                      "working_hours": [
+                        {
+                          "from": "09:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Wed": {
+                      "working_hours": [
+                        {
+                          "from": "09:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    }
+                  },
+                  "timezone_offset": 600,
+                  "type": "branch"
+                },
+                "type": "pointB",
+                "point_from": {
+                  "lat": 55.88153484276256,
+                  "lon": 37.58480007846959
+                }
+              }
+            }
+          }
+        ],
+        "divider": {
+          "style": "default",
+          "size": "d1"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "top": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "texts": {
+            "title": {
+              "text": "Vardex",
+              "typeface": "body2",
+              "text_color": "default",
+              "max_lines": 2
+            },
+            "subtitle": {
+              "text": "Электронные сигареты • Владивосток, Светланская, 31/4 • 6412 км • ост. Площадь борцов революции • Закрыто до 10:00",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 0,
+              "margins": {
+                "top": "2x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "★ 4,8",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "2x"
+          },
+          "vertical_gravity": "top"
+        },
+        "actions": [
+          {
+            "type": "server_action",
+            "message_name": "SERVER_ACTION",
+            "server_action": {
+              "action_id": "tap_chosen_card",
+              "parameters": {
+                "card_position": 2,
+                "place": {
+                  "address": {
+                    "building_id": "70030076131724741",
+                    "components": [
+                      {
+                        "number": "31/4",
+                        "street": "Светланская",
+                        "street_id": "3519175943258113",
+                        "type": "street_number"
+                      }
+                    ],
+                    "postcode": "690091"
+                  },
+                  "address_comment": "1 этаж",
+                  "address_name": "Светланская, 31/4",
+                  "adm_div": [
+                    {
+                      "id": "1",
+                      "name": "Россия",
+                      "type": "country"
+                    },
+                    {
+                      "id": "1267655302447132",
+                      "name": "Приморский край",
+                      "type": "region"
+                    },
+                    {
+                      "id": "70030076118166808",
+                      "name": "Владивостокский городской округ",
+                      "type": "district_area"
+                    },
+                    {
+                      "city_alias": "vladivostok",
+                      "flags": {
+                        "is_default": true,
+                        "is_district_area_center": true,
+                        "is_region_center": true
+                      },
+                      "id": "3519059979141128",
+                      "is_default": true,
+                      "name": "Владивосток",
+                      "type": "city"
+                    },
+                    {
+                      "id": "3519047094239235",
+                      "name": "Ленинский район",
+                      "type": "district"
+                    }
+                  ],
+                  "full_address_name": "Владивосток, Светланская, 31/4",
+                  "id": "70000001034090619_lz4khm78964H3H8301IGGGGGtgtgcd98G6G8038651619372wnDrA56B19G36G6G1JG4IJG3sj3Euv191B35101335AH3J3H1b6",
+                  "links": {
+                    "nearest_stations": [
+                      {
+                        "distance": 60,
+                        "id": "3519223187898765",
+                        "name": "Площадь борцов революции",
+                        "route_types": [
+                          "bus",
+                          "shuttle_bus"
+                        ]
+                      }
+                    ]
+                  },
+                  "name": "Vardex, профессиональная сеть магазинов электронных устройств и систем нагревания",
+                  "name_ex": {
+                    "extension": "профессиональная сеть магазинов электронных устройств и систем нагревания",
+                    "legal_name": "ООО Вардекс плюс",
+                    "primary": "Vardex",
+                    "short_name": "Vardex"
+                  },
+                  "point": {
+                    "lat": 43.115965,
+                    "lon": 131.886452
+                  },
+                  "reviews": {
+                    "general_rating": 4.8,
+                    "general_review_count": 28,
+                    "is_reviewable": true,
+                    "is_reviewable_on_flamp": true,
+                    "items": [
+                      {
+                        "is_reviewable": true,
+                        "tag": "2gis_reviews"
+                      },
+                      {
+                        "is_reviewable": true,
+                        "tag": "flamp"
+                      }
+                    ],
+                    "org_rating": 4.3,
+                    "org_review_count": 57
+                  },
+                  "rubrics": [
+                    {
+                      "alias": "ehlektronnye_sigarety",
+                      "id": "110483",
+                      "kind": "primary",
+                      "name": "Электронные сигареты",
+                      "parent_id": "14",
+                      "short_id": 110483
+                    },
+                    {
+                      "alias": "tabachnye_izdeliya_tovary_dlya_kureniya",
+                      "id": "367",
+                      "kind": "additional",
+                      "name": "Табачные изделия / Товары для курения",
+                      "parent_id": "14",
+                      "short_id": 367
+                    }
+                  ],
+                  "schedule": {
+                    "Fri": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Mon": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Sat": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Sun": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Thu": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Tue": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    },
+                    "Wed": {
+                      "working_hours": [
+                        {
+                          "from": "10:00",
+                          "to": "21:00"
+                        }
+                      ]
+                    }
+                  },
+                  "timezone_offset": 600,
+                  "type": "branch"
+                },
+                "type": "pointB",
+                "point_from": {
+                  "lat": 55.88153484276256,
+                  "lon": 37.58480007846959
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "button_cell_view",
+        "content": {
+          "text": "Посмотреть в 2ГИС",
+          "typeface": "button2",
+          "style": "default",
+          "type": "accept",
+          "actions": [
+            {
+              "type": "deep_link",
+              "deep_link": "https://2gis.ru/search/vardex владивосток?utm_source=sber.ru&utm_campaign=sber.ru_superapp"
+            }
+          ],
+          "margins": {
+            "left": "10x",
+            "top": "5x",
+            "right": "10x",
+            "bottom": "5x"
+          }
+        },
+        "paddings": {
+          "top": "10x"
         }
       }
     ]
+  }
+}
