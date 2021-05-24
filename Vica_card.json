@@ -1,0 +1,145 @@
+"card": {	
+	"type": "list_card",
+	"paddings": {
+		"left": "8x",
+		"top": "8x",
+		"right": "8x"
+	}
+	"cells": [
+		{
+			"type": "simple_left_view",
+			"texts": {
+				"title": {
+					"text": "Чайхона",
+					"typeface": "body1",
+					"text_color": "default",
+					"max_lines": 0
+				},
+				"subtitle": {
+					"text": "Большая Ордынка, 17/n пн-вс круглосуточно/n Время/n 25 мая, вторник, 18:00",
+					"typeface": "footnote1",
+                    "text_color": "secondary",
+					"margins": {
+						"top": "1x"
+					},
+					"max_lines": 0					
+				}
+			}
+		},
+		{
+			"type": "simple_left_view",
+			"texts": {
+				"title": {
+					"text": "Количество гостей",
+					"typeface": "footnote1",
+                    "text_color": "secondary",
+					"max_lines": 0
+				},
+				"subtitle": {
+					"text": "3 гостя",
+					"typeface": "body1",
+					"text_color": "default",
+					"margins": {
+						"top": "1x"
+					},
+					"max_lines": 0
+					}
+				}
+			}
+		},
+		{
+			"type": "simple_left_view",
+			"texts": {
+				"title": {
+					"text": "Пожелания",
+					"typeface": "footnote1",
+                    "text_color": "secondary",
+					"max_lines": 0
+				},
+				"subtitle": {
+					"text": "Добавить пожелание",
+					"typeface": "body1",
+					"text_color": "default",
+					"margins": {
+						"top": "1x"
+					},
+					"max_lines": 0
+				}
+			}
+		},
+		{
+			"type": "simple_left_view",
+			"texts": {
+				"title": {
+					"text": "На кого бронь",
+					"typeface": "footnote1",
+                    "text_color": "secondary",
+					"max_lines": 0
+				},
+				"subtitle": {
+					"text": "Александр, +7(900) *** ** 18",
+					"typeface": "body1",
+					"text_color": "default",
+					"margins": {
+						"top": "0x"
+					},
+					"max_lines": 0
+				}
+			}
+		},
+		{
+			"type": "button_cell_view",
+			"content": {
+				"text": "Забронирвать",
+				"typeface": "button1",
+				"style": "default",
+				"type": "accept",
+				"actions": [
+					{
+						"type": "text",
+						"text": "Забронирвать"
+					}
+				],
+				"margins": {
+					"left": "10x",
+					"top": "5x",
+					"right": "10x",
+					"bottom": "5x"
+				}
+			},
+			"paddings": {
+				"left": "6x",
+				"top": "12x",
+				"right": "6x",
+				"bottom": "8x"
+			}
+		},
+		{
+			"type": "button_cell_view",
+			"content": {
+				"text": "Купить",
+				"typeface": "button1",
+				"style": "default",
+				"type": "negative",
+				"actions": [
+					{
+						"type": "text",
+						"text": "Купить"
+					}
+				],
+				"margins": {
+					"left": "10x",
+					"top": "5x",
+					"right": "10x",
+					"bottom": "5x"
+				}
+			},
+			"paddings": {
+				"left": "6x",
+				"top": "12x",
+				"right": "6x",
+				"bottom": "8x"
+			}
+		}
+	]
+}
