@@ -1,0 +1,254 @@
+{
+				"card": {
+					"type": "list_card",
+					"cells": [
+						{
+							"left": {
+								"type": "simple_left_view",
+								"texts": {
+									"title": {
+										"text": "Шинок",
+										"typeface": "headline3",
+										"max_lines": 2,
+										"text_color": "default"
+									},
+									"caption": {
+										"text": "Пн-Вс: 12:00-0:00",
+										"margins": {
+											"top": "2x"
+										},
+										"typeface": "footnote1",
+										"max_lines": 3,
+										"text_color": "secondary"
+									},
+									"subtitle": {
+										"text": "1905 года, 2\nметро Улица 1905 года",
+										"typeface": "body2",
+										"max_lines": 5,
+										"text_color": "default"
+									}
+								}
+							},
+							"type": "left_right_cell_view",
+							"paddings": {
+								"top": "8x",
+								"bottom": "2x"
+							}
+						},
+						{
+							"left": {
+								"type": "simple_left_view",
+								"texts": {
+									"title": {
+										"text": "Время",
+										"typeface": "footnote1",
+										"max_lines": 1,
+										"text_color": "secondary"
+									},
+									"subtitle": {
+										"text": "Понедельник, 5 июля в 19:00 ",
+										"margins": {
+											"top": "1x",
+											"bottom": "1x"
+										},
+										"typeface": "body1",
+										"max_lines": 1,
+										"text_color": "default"
+									}
+								}
+							},
+							"type": "left_right_cell_view",
+							"actions": [
+								{
+									"text": "Изменить дату и время",
+									"type": "text"
+								}
+							],
+							"divider": {
+								"size": "d1",
+								"style": "default"
+							},
+							"paddings": {
+								"top": "4x",
+								"left": "0x",
+								"right": "8x",
+								"bottom": "4x"
+							}
+						},
+						{
+							"left": {
+								"type": "simple_left_view",
+								"texts": {
+									"title": {
+										"text": "Количество гостей",
+										"typeface": "footnote1",
+										"max_lines": 1,
+										"text_color": "secondary"
+									},
+									"subtitle": {
+										"text": "3 гостя",
+										"margins": {
+											"top": "1x",
+											"bottom": "1x"
+										},
+										"typeface": "body1",
+										"max_lines": 1,
+										"text_color": "default"
+									}
+								}
+							},
+							"type": "left_right_cell_view",
+							"actions": [
+								{
+									"text": "Изменить количество персон",
+									"type": "text"
+								}
+							],
+							"divider": {
+								"size": "d1",
+								"style": "default"
+							},
+							"paddings": {
+								"top": "4x",
+								"left": "0x",
+								"right": "8x",
+								"bottom": "4x"
+							}
+						},
+						{
+							"left": {
+								"type": "simple_left_view",
+								"texts": {
+									"title": {
+										"text": "Пожелания",
+										"typeface": "footnote1",
+										"max_lines": 1,
+										"text_color": "secondary"
+									},
+									"subtitle": {
+										"text": "Добавить пожелание",
+										"margins": {
+											"top": "1x",
+											"bottom": "1x"
+										},
+										"typeface": "body1",
+										"max_lines": 1,
+										"text_color": "default"
+									}
+								}
+							},
+							"type": "left_right_cell_view",
+							"actions": [
+								{
+									"text": "Добавить пожелание",
+									"type": "text"
+								}
+							],
+							"divider": {
+								"size": "d1",
+								"style": "default"
+							},
+							"paddings": {
+								"top": "4x",
+								"left": "0x",
+								"right": "8x",
+								"bottom": "4x"
+							}
+						},
+						{
+							"left": {
+								"type": "simple_left_view",
+								"texts": {
+									"title": {
+										"text": "На кого бронь",
+										"typeface": "footnote1",
+										"max_lines": 1,
+										"text_color": "secondary"
+									},
+									"subtitle": {
+										"text": "****, +7(955)-***-**-55",
+										"margins": {
+											"top": "1x",
+											"bottom": "1x"
+										},
+										"typeface": "body1",
+										"max_lines": 1,
+										"text_color": "default"
+									}
+								}
+							},
+							"type": "left_right_cell_view",
+							"actions": [
+								{
+									"text": "Изменить номер телефона",
+									"type": "text"
+								}
+							],
+							"divider": {
+								"size": "d1",
+								"style": "default"
+							},
+							"paddings": {
+								"top": "4x",
+								"left": "0x",
+								"right": "8x",
+								"bottom": "4x"
+							}
+						},
+						{
+							"type": "button_cell_view",
+							"content": {
+								"text": "Забронировать",
+								"type": "accept",
+								"style": "default",
+								"actions": [
+									{
+										"text": "Забронировать",
+										"type": "text"
+									}
+								],
+								"margins": {
+									"top": "5x",
+									"left": "10x",
+									"right": "10x",
+									"bottom": "5x"
+								},
+								"typeface": "headline4"
+							},
+							"paddings": {
+								"top": "10x"
+							}
+						},
+						{
+							"type": "button_cell_view",
+							"content": {
+								"text": "Отмена",
+								"type": "disabled",
+								"style": "default",
+								"actions": [
+									{
+										"text": "Отмена",
+										"type": "text"
+									}
+								],
+								"margins": {
+									"top": "5x",
+									"left": "10x",
+									"right": "10x",
+									"bottom": "5x"
+								},
+								"typeface": "headline4"
+							},
+							"paddings": {
+								"top": "10x"
+							}
+						}
+					],
+					"paddings": {
+						"top": "8x",
+						"left": "8x",
+						"right": "8x",
+						"bottom": "8x"
+					}
+				}
+			}
